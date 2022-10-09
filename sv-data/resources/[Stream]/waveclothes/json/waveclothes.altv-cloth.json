@@ -1,0 +1,2106 @@
+[
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\5fc181-Dead Homies Chain\\Dead Homies Chain\\teef_diff_001_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\5fc181-Dead Homies Chain\\Dead Homies Chain\\teef_diff_001_b_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 7,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\5fc181-Dead Homies Chain\\Dead Homies Chain\\teef_001_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Accessories_001",
+    "DisplayName": "Accessories_001 (ID: 0) (000) (Accessories)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4b795d-Nugget Rings\\Nugget Rings\\teef_diff_019_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4b795d-Nugget Rings\\Nugget Rings\\teef_diff_019_b_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 7,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4b795d-Nugget Rings\\Nugget Rings\\teef_019_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Accessories_019",
+    "DisplayName": "Accessories_019 (ID: 1) (001) (Accessories)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\c71a90-sprayground\\hand_diff_003_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\c71a90-sprayground\\hand_diff_003_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\c71a90-sprayground\\hand_diff_003_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\c71a90-sprayground\\hand_diff_003_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\c71a90-sprayground\\hand_diff_003_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\c71a90-sprayground\\hand_diff_003_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\c71a90-sprayground\\hand_diff_003_g_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\c71a90-sprayground\\hand_diff_003_h_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 5,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\c71a90-sprayground\\hand_003_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Bag_003",
+    "DisplayName": "Bag_003 (ID: 0) (000) (Bag)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [],
+    "ClothType": 0,
+    "DrawableType": 3,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\Torso to use\\uppr_032_r.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Body_032",
+    "DisplayName": "Body_032 (ID: 0) (-) (Body)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\cd6531-hair\\hair_diff_000_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\cd6531-hair\\hair_000_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Hair_000",
+    "DisplayName": "Hair_000 (ID: 0) (000) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\russ_68cus\\Curls\\hair_diff_000_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\russ_68cus\\Curls\\hair_000_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Hair_000",
+    "DisplayName": "Hair_000 (ID: 1) (001) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\russ_68cus\\Braids\\hair_diff_001_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\russ_68cus\\Braids\\hair_001_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Hair_001",
+    "DisplayName": "Hair_001 (ID: 2) (002) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\bfa479-60s Cut\\60s Cut\\hair_diff_002_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\bfa479-60s Cut\\60s Cut\\hair_002_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Hair_002",
+    "DisplayName": "Hair_002 (ID: 0) (000) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\6429d2-Curly Mohawk\\Curly Mohawk\\Chalk Line\\hair_diff_003_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\6429d2-Curly Mohawk\\Curly Mohawk\\Chalk Line\\hair_003_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Hair_003",
+    "DisplayName": "Hair_003 (ID: 3) (003) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\6429d2-Curly Mohawk\\Curly Mohawk\\colored tips\\hair_diff_003_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\6429d2-Curly Mohawk\\Curly Mohawk\\colored tips\\hair_003_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Hair_003",
+    "DisplayName": "Hair_003 (ID: 4) (004) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\6429d2-Curly Mohawk\\Curly Mohawk\\no chalk line\\hair_diff_003_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\6429d2-Curly Mohawk\\Curly Mohawk\\no chalk line\\hair_003_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Hair_003",
+    "DisplayName": "Hair_003 (ID: 5) (005) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\093960-Kaisa Hair JuneBug\\Kaisa Hair JuneBug\\Singleplayer\\hair_diff_003_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\093960-Kaisa Hair JuneBug\\Kaisa Hair JuneBug\\Singleplayer\\hair_003_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Hair_003",
+    "DisplayName": "Hair_003 (ID: 1) (001) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\ba3264-Juana Hair\\Juana Hair\\hair_diff_007_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\ba3264-Juana Hair\\Juana Hair\\hair_007_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Hair_007",
+    "DisplayName": "Hair_007 (ID: 2) (002) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\051eb8-Leigh Hair\\hair_diff_023_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\051eb8-Leigh Hair\\hair_023_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Hair_023",
+    "DisplayName": "Hair_023 (ID: 3) (003) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\f829a9-Onika Hair\\hair_diff_036_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\f829a9-Onika Hair\\hair_036_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Hair_036",
+    "DisplayName": "Hair_036 (ID: 4) (004) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\4abc4a-Mulan\\Mulan\\hair_diff_056_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\4abc4a-Mulan\\Mulan\\hair_056_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Hair_056",
+    "DisplayName": "Hair_056 (ID: 5) (005) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\5034e5-Straight Hair\\Straight Hair\\hair_diff_070_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\5034e5-Straight Hair\\Straight Hair\\hair_070_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Hair_070",
+    "DisplayName": "Hair_070 (ID: 6) (006) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\bd971f-Ariana_Hair\\hair_diff_117_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\bd971f-Ariana_Hair\\hair_117_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Hair_117",
+    "DisplayName": "Hair_117 (ID: 7) (007) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\3a5719-tied_dread\\hair_diff_133_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 2,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\3a5719-tied_dread\\hair_133_u.ydd",
+    "FirstPersonModelPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\3a5719-tied_dread\\hair_133_u_1.ydd",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Hair_133",
+    "DisplayName": "Hair_133 (ID: 6) (006) (Hair)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\ff5379-lowr_000_r\\lowr_diff_000_a_whi.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\ff5379-lowr_000_r\\lowr_diff_000_b_whi.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\ff5379-lowr_000_r\\lowr_diff_000_c_whi.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\ff5379-lowr_000_r\\lowr_diff_000_d_whi.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 4,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\ff5379-lowr_000_r\\lowr_000_r.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Legs_000",
+    "DisplayName": "Legs_000 (ID: 0) (000) (Legs)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\Legs to use\\leg textures\\mp_fm_skin_f_lo_ara.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\Legs to use\\leg textures\\mp_fm_skin_f_lo_bla.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\Legs to use\\leg textures\\mp_fm_skin_f_lo_chi.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\Legs to use\\leg textures\\mp_fm_skin_f_lo_lat.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\Legs to use\\leg textures\\mp_fm_skin_f_lo_pak.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\Legs to use\\leg textures\\mp_fm_skin_f_lo_whi.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 4,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\Legs to use\\lowr_001_r.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Legs_001",
+    "DisplayName": "Legs_001 (ID: 0) (000) (Legs)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\bb4401-Moon Lander Sneakers for MP Male\\Moon Lander Sneakers for MP Male\\Textures\\feet_diff_000_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\bb4401-Moon Lander Sneakers for MP Male\\Moon Lander Sneakers for MP Male\\Textures\\feet_diff_000_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\bb4401-Moon Lander Sneakers for MP Male\\Moon Lander Sneakers for MP Male\\Textures\\feet_diff_000_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\bb4401-Moon Lander Sneakers for MP Male\\Moon Lander Sneakers for MP Male\\Textures\\feet_diff_000_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\bb4401-Moon Lander Sneakers for MP Male\\Moon Lander Sneakers for MP Male\\Textures\\feet_diff_000_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\bb4401-Moon Lander Sneakers for MP Male\\Moon Lander Sneakers for MP Male\\Textures\\feet_diff_000_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\bb4401-Moon Lander Sneakers for MP Male\\Moon Lander Sneakers for MP Male\\Textures\\feet_diff_000_g_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 6,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\bb4401-Moon Lander Sneakers for MP Male\\Moon Lander Sneakers for MP Male\\Model\\feet_000_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Shoes_000",
+    "DisplayName": "Shoes_000 (ID: 0) (000) (Shoes)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\10da82-ugg slippers\\ugg slippers\\feet_diff_001_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\10da82-ugg slippers\\ugg slippers\\feet_diff_001_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\10da82-ugg slippers\\ugg slippers\\feet_diff_001_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\10da82-ugg slippers\\ugg slippers\\feet_diff_001_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\10da82-ugg slippers\\ugg slippers\\feet_diff_001_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\10da82-ugg slippers\\ugg slippers\\feet_diff_001_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\10da82-ugg slippers\\ugg slippers\\feet_diff_001_g_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 6,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\10da82-ugg slippers\\ugg slippers\\feet_001_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Shoes_001",
+    "DisplayName": "Shoes_001 (ID: 1) (001) (Shoes)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\315574-Files\\Files\\feet_diff_001_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\315574-Files\\Files\\feet_diff_001_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\315574-Files\\Files\\feet_diff_001_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\315574-Files\\Files\\feet_diff_001_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\315574-Files\\Files\\feet_diff_001_e_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 6,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\315574-Files\\Files\\feet_001_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Shoes_001",
+    "DisplayName": "Shoes_001 (ID: 2) (002) (Shoes)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\cf55c5-YeezySlide\\feet_diff_002_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\cf55c5-YeezySlide\\feet_diff_002_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\cf55c5-YeezySlide\\feet_diff_002_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\cf55c5-YeezySlide\\feet_diff_002_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\cf55c5-YeezySlide\\feet_diff_002_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\cf55c5-YeezySlide\\feet_diff_002_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\cf55c5-YeezySlide\\feet_diff_002_g_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\cf55c5-YeezySlide\\feet_diff_002_h_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 6,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\cf55c5-YeezySlide\\feet_002_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Shoes_002",
+    "DisplayName": "Shoes_002 (ID: 3) (003) (Shoes)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_000_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_000_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_000_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_000_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_000_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_000",
+    "DisplayName": "Top_000 (ID: 0) (000) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business2\\jbib_diff_000_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business2\\jbib_diff_000_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business2\\jbib_diff_000_c_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business2\\jbib_000_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_000",
+    "DisplayName": "Top_000 (ID: 1) (001) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_mplts\\jbib_diff_000_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_mplts\\jbib_diff_000_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_mplts\\jbib_diff_000_c_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_mplts\\jbib_000_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_000",
+    "DisplayName": "Top_000 (ID: 2) (002) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_xmas\\jbib_diff_000_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_xmas\\jbib_diff_000_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_xmas\\jbib_diff_000_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_xmas\\jbib_diff_000_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_xmas\\jbib_000_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_000",
+    "DisplayName": "Top_000 (ID: 3) (003) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_001_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_001_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_001_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_001_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_001_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_001",
+    "DisplayName": "Top_001 (ID: 4) (004) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_hipster\\jbib_diff_001_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_hipster\\jbib_diff_001_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_hipster\\jbib_diff_001_c_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_hipster\\jbib_001_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_001",
+    "DisplayName": "Top_001 (ID: 5) (005) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_independence\\jbib_diff_001_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_independence\\jbib_diff_001_b_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_independence\\jbib_001_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_001",
+    "DisplayName": "Top_001 (ID: 6) (006) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_mplts\\jbib_diff_001_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_mplts\\jbib_diff_001_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_mplts\\jbib_diff_001_c_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_mplts\\jbib_001_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_001",
+    "DisplayName": "Top_001 (ID: 7) (007) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_xmas\\jbib_diff_001_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_xmas\\jbib_diff_001_b_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_xmas\\jbib_001_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_001",
+    "DisplayName": "Top_001 (ID: 8) (008) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\a4d3fb-Sassy_Fit\\jbib_diff_001_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\a4d3fb-Sassy_Fit\\jbib_diff_001_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\a4d3fb-Sassy_Fit\\jbib_diff_001_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\a4d3fb-Sassy_Fit\\jbib_diff_001_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\a4d3fb-Sassy_Fit\\jbib_diff_001_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\a4d3fb-Sassy_Fit\\jbib_diff_001_f_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\a4d3fb-Sassy_Fit\\jbib_001_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_001",
+    "DisplayName": "Top_001 (ID: 9) (009) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_g_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_h_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_i_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_j_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_k_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_l_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_diff_003_m_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\980b03-The NorthFace Coach Jacket\\The NorthFace Coach Jacket\\jbib_003_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Top_003",
+    "DisplayName": "Top_003 (ID: 0) (000) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_004_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_004_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_004_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_004_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_004_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_004",
+    "DisplayName": "Top_004 (ID: 10) (010) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_005_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_005_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_005_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_diff_005_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_female_freemode_business\\jbib_005_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_005",
+    "DisplayName": "Top_005 (ID: 11) (011) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\26ad46-nike hoodie\\jbib_007_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Top_007",
+    "DisplayName": "Top_007 (ID: 0) (-) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\2a0a8b-bone puffer jacket\\jbib_diff_008_a_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\2a0a8b-bone puffer jacket\\jbib_008_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Top_008",
+    "DisplayName": "Top_008 (ID: 1) (001) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\7d3e5d-VEDERE'S STRANGER THINGS SHIRT PACK\\VEDERE'S STRANGER THINGS SHIRT PACK\\SHIRT\\jbib_diff_054_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\7d3e5d-VEDERE'S STRANGER THINGS SHIRT PACK\\VEDERE'S STRANGER THINGS SHIRT PACK\\SHIRT\\jbib_diff_054_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\7d3e5d-VEDERE'S STRANGER THINGS SHIRT PACK\\VEDERE'S STRANGER THINGS SHIRT PACK\\SHIRT\\jbib_diff_054_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\7d3e5d-VEDERE'S STRANGER THINGS SHIRT PACK\\VEDERE'S STRANGER THINGS SHIRT PACK\\SHIRT\\jbib_diff_054_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\7d3e5d-VEDERE'S STRANGER THINGS SHIRT PACK\\VEDERE'S STRANGER THINGS SHIRT PACK\\SHIRT\\jbib_diff_054_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\7d3e5d-VEDERE'S STRANGER THINGS SHIRT PACK\\VEDERE'S STRANGER THINGS SHIRT PACK\\SHIRT\\jbib_diff_054_f_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\7d3e5d-VEDERE'S STRANGER THINGS SHIRT PACK\\VEDERE'S STRANGER THINGS SHIRT PACK\\SHIRT\\jbib_054_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_054",
+    "DisplayName": "Top_054 (ID: 12) (012) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\52270b-Don't Care Bears Shirt Pack Female\\Don't Care Bears Shirt Pack Female\\jbib_diff_104_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\52270b-Don't Care Bears Shirt Pack Female\\Don't Care Bears Shirt Pack Female\\jbib_diff_104_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\52270b-Don't Care Bears Shirt Pack Female\\Don't Care Bears Shirt Pack Female\\jbib_diff_104_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\52270b-Don't Care Bears Shirt Pack Female\\Don't Care Bears Shirt Pack Female\\jbib_diff_104_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\52270b-Don't Care Bears Shirt Pack Female\\Don't Care Bears Shirt Pack Female\\jbib_diff_104_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\52270b-Don't Care Bears Shirt Pack Female\\Don't Care Bears Shirt Pack Female\\jbib_diff_104_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\52270b-Don't Care Bears Shirt Pack Female\\Don't Care Bears Shirt Pack Female\\jbib_diff_104_g_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 11,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\52270b-Don't Care Bears Shirt Pack Female\\Don't Care Bears Shirt Pack Female\\jbib_104_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Top_104",
+    "DisplayName": "Top_104 (ID: 13) (013) (Top)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_g_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_h_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_i_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_j_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_k_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_l_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_m_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_n_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_o_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_diff_001_p_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\masculino\\4c14fa-blusa 1\\blusa 1\\accs_001_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 0,
+    "Icon": "👨🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_001",
+    "DisplayName": "Undershirt_001 (ID: 0) (000) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_004_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_004_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_004_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_004_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_004_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_004",
+    "DisplayName": "Undershirt_004 (ID: 0) (000) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_005_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_005_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_005_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_005_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_005_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_005",
+    "DisplayName": "Undershirt_005 (ID: 1) (001) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\868e2b-Ribbed Romper\\Ribbed Romper\\SP\\accs_diff_005_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\868e2b-Ribbed Romper\\Ribbed Romper\\SP\\accs_diff_005_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\868e2b-Ribbed Romper\\Ribbed Romper\\SP\\accs_diff_005_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\868e2b-Ribbed Romper\\Ribbed Romper\\SP\\accs_diff_005_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\868e2b-Ribbed Romper\\Ribbed Romper\\SP\\accs_diff_005_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\868e2b-Ribbed Romper\\Ribbed Romper\\SP\\accs_diff_005_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\868e2b-Ribbed Romper\\Ribbed Romper\\SP\\accs_diff_005_g_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\868e2b-Ribbed Romper\\Ribbed Romper\\SP\\accs_diff_005_h_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\868e2b-Ribbed Romper\\Ribbed Romper\\SP\\accs_diff_005_i_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\868e2b-Ribbed Romper\\Ribbed Romper\\SP\\accs_005_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_005",
+    "DisplayName": "Undershirt_005 (ID: 2) (002) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\cc5391-Cute Chain Top\\Cute Chain Top\\SP\\accs_diff_005_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\cc5391-Cute Chain Top\\Cute Chain Top\\SP\\accs_diff_005_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\cc5391-Cute Chain Top\\Cute Chain Top\\SP\\accs_diff_005_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\cc5391-Cute Chain Top\\Cute Chain Top\\SP\\accs_diff_005_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\cc5391-Cute Chain Top\\Cute Chain Top\\SP\\accs_diff_005_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\cc5391-Cute Chain Top\\Cute Chain Top\\SP\\accs_diff_005_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\cc5391-Cute Chain Top\\Cute Chain Top\\SP\\accs_diff_005_g_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\cc5391-Cute Chain Top\\Cute Chain Top\\SP\\accs_005_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_005",
+    "DisplayName": "Undershirt_005 (ID: 3) (003) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_006_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_006_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_006_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_006_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_006_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_006",
+    "DisplayName": "Undershirt_006 (ID: 4) (004) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_007_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_007_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_007_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_007_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_007_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_007",
+    "DisplayName": "Undershirt_007 (ID: 5) (005) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_008_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_008_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_008_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_008_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_008_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_008",
+    "DisplayName": "Undershirt_008 (ID: 6) (006) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_009_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_009_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_009_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_009_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_009_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_009",
+    "DisplayName": "Undershirt_009 (ID: 7) (007) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_010_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_010_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_010_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_010_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_010_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_010",
+    "DisplayName": "Undershirt_010 (ID: 8) (008) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_011_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_011_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_011_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_011_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_011_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_011_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_011_g_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_011_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_011",
+    "DisplayName": "Undershirt_011 (ID: 9) (009) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_012_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_012_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_012_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_012_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_012_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_012",
+    "DisplayName": "Undershirt_012 (ID: 10) (010) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_013_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_013_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_013_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_013_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_013_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_013",
+    "DisplayName": "Undershirt_013 (ID: 11) (011) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_014_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_014_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_014_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_014_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_014_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_014",
+    "DisplayName": "Undershirt_014 (ID: 12) (012) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_015_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_015_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_015_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_015_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_015_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_015",
+    "DisplayName": "Undershirt_015 (ID: 13) (013) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_diff_016_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_diff_016_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_diff_016_c_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_016_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_016",
+    "DisplayName": "Undershirt_016 (ID: 14) (014) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_016_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_016_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_016_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_016_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_016_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_016",
+    "DisplayName": "Undershirt_016 (ID: 15) (015) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_diff_017_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_diff_017_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_diff_017_c_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_017_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_017",
+    "DisplayName": "Undershirt_017 (ID: 16) (016) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_017_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_017_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_017_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_017_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_017_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_017",
+    "DisplayName": "Undershirt_017 (ID: 17) (017) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_diff_018_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_diff_018_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_diff_018_c_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_bikerdlc_01\\accs_018_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_018",
+    "DisplayName": "Undershirt_018 (ID: 18) (018) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_018_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_018_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_018_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_018_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_018_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_018",
+    "DisplayName": "Undershirt_018 (ID: 19) (019) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_019_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_019_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_019_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_019_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_019_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_019",
+    "DisplayName": "Undershirt_019 (ID: 20) (020) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_020_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_020_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_020_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_020_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_020_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_020",
+    "DisplayName": "Undershirt_020 (ID: 21) (021) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_021_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_021_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_021_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_diff_021_d_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\32ea3c-bikinipackMpfemale1.0\\bikinipackMpfemale1.0\\mp_f_freemode_01_mp_f_gunrunning_01\\accs_021_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_021",
+    "DisplayName": "Undershirt_021 (ID: 22) (022) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\9146d4-High waisted jeans\\High wasted Jeans\\accs_diff_032_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\9146d4-High waisted jeans\\High wasted Jeans\\accs_diff_032_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\9146d4-High waisted jeans\\High wasted Jeans\\accs_diff_032_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\9146d4-High waisted jeans\\High wasted Jeans\\accs_diff_032_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\9146d4-High waisted jeans\\High wasted Jeans\\accs_diff_032_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\9146d4-High waisted jeans\\High wasted Jeans\\accs_diff_032_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\9146d4-High waisted jeans\\High wasted Jeans\\accs_diff_032_g_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\9146d4-High waisted jeans\\High wasted Jeans\\accs_diff_032_h_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\9146d4-High waisted jeans\\High wasted Jeans\\accs_032_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_032",
+    "DisplayName": "Undershirt_032 (ID: 23) (023) (Undershirt)"
+  },
+  {
+    "PedComponentFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "isHighHeels": false
+    },
+    "PedPropFlags": {
+      "unkFlag1": false,
+      "unkFlag2": false,
+      "unkFlag3": false,
+      "unkFlag4": false,
+      "unkFlag5": false
+    },
+    "Textures": [
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_a_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_b_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_c_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_d_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_e_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_f_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_g_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_h_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_i_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_j_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_k_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_l_uni.ytd",
+      "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_diff_038_m_uni.ytd"
+    ],
+    "ClothType": 0,
+    "DrawableType": 8,
+    "MainPath": "C:\\Users\\Kauê\\Documents\\pack-roupas\\feminino\\515424-Criss Cross Skirt\\Criss Cross Skirt\\accs_038_u.ydd",
+    "FirstPersonModelPath": "",
+    "TargetSex": 1,
+    "Icon": "👩🏻",
+    "Type": "🧥",
+    "Name": "Undershirt_038",
+    "DisplayName": "Undershirt_038 (ID: 24) (024) (Undershirt)"
+  }
+]
