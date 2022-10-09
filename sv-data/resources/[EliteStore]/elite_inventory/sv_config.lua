@@ -592,7 +592,6 @@ AddEventHandler("vrp_inventory:useItem", function(slot, rAmount)
                                 vRPclient._DeletarObjeto(src)
                                 TriggerClientEvent("Notify",source,"sucesso","Você tomou <b>Água</b>.")
                             end)
-        
                         end 
                     elseif itemName == "pamonha" then
                         local src = source
