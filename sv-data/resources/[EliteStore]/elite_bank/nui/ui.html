@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<head>
+    <title>sc-bank</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="lcombat#0264/Sembenevi#1018">
+    <link rel="stylesheet" href="ui.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> 
+</head>
+
+<body style="display: none;">
+
+    <div id="center">
+        <main>
+            <header>
+                <div class="sc-home">
+                    <h1>
+                        Seja Bem Vindo(a)
+                        <p>O BANCO QUE TE FAZ SUBIR</p>
+                    </h1>
+                </div>
+            </header>
+
+            <section class="sc-person">
+                <div class="sc-person-flex">
+                    <div id="img">
+                        
+                    </div>
+                    <p class="sc-name namecardloop"> </p>
+                    <p class="sc-job"></p>
+                    <p id="age">Idade:
+                        <strong></strong>
+                    </p>
+                    <p id="rg">
+                        RG:
+                        <strong></strong>
+                    </p>
+                    <p id="id">
+                        Passaporte:
+                        <strong></strong>
+                    </p>
+
+                    <p id="wallet">
+                        Dinheiro:
+                        <strong></strong>
+                    </p>
+                </div>
+                <div class="sc-person-flex2">
+                    <p>Chame seus amigos para fazer parte do Crime Bank</p>
+                    <img src="./img/sc-qrcode.svg" style="width: 3rem;">
+                </div>
+            </section>
+
+            <footer>
+                <div class="sc-informations">
+                    <p class="sc-bnv-saldo" >Olá, seu saldo atual é de:</p>
+                    <p class="sc-saldo-card"></p>
+                </div>
+                <div class="sc-card" >
+                    <div class="sc-card-top">
+                        <p>BLACK EDITION </p>
+                    </div>
+                    <img src="./img/mastercard.svg">
+                    <img src="./img/sc-chipcard.svg" style="margin-right: 188px !important;">
+                    <p style="margin-left: 27px;margin-top: 52px;color: #b6b6b6;">2907 9678 3657 ****</p>
+                    <p class="sc-name-card namecardloop"> </p>
+                </div>
+           </footer>
+
+           <div class="sc-flex">
+                <div class="ContentE">
+                    <div class="sc-bank-log">
+                        <div class="sc-log-box">
+                        </div>
+                    </div>
+                </div>
+                <section class="sc-action">
+                </section> 
+
+                <nav>
+                    <div class="sc-houver-container">
+                        <div>
+                            <button class="sc-button-nav withdraw" style="border-radius: 0rem 0rem 0rem 1rem">
+                                <img src="./img/sc-draw.svg">  
+                            </button>
+                        </div>
+                    </div>
+            
+                    <div class="houver-container" >
+                        <div>
+                            <button class="sc-button-nav deposit">
+                                <img src="./img/sc-deposit.svg"> 
+                            </button>
+                        </div>
+                    </div>
+            
+                    <div class="sc-houver-container">
+                        <div>
+                            <button class="sc-button-nav transfer">
+                                <img src="./img/sc-transfer.svg"> 
+                            </button>
+                        </div>
+                    </div>
+            
+                    <div class="sc-houver-container">
+                        <div>
+                            <button class="sc-button-nav fines" style="border-radius: 1rem 0rem 0rem 0rem"> 
+                                <img src="./img/sc-fines.svg"> 
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </main>
+    </div>
+    <script src="ui.js" type="text/javascript"></script>
+</body>

@@ -1,0 +1,4 @@
+para instalar coloca os arquivos da pasta [xampp] em C:\xampp\htdocs\ 
+BASTA COLOCAR NA RAIZ DO SEU HTDOCS!
+CREDITOS <3 
+discord.gg/dogz1n

@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Permanent+Marker&family=Prompt:ital,wght@1,900&family=Roboto+Condensed:wght@700&family=Secular+One&display=swap');
+html,
+body {
+    overflow: hidden;
+    background: transparent;
+}
+
+#imgserver {
+    margin-top: -10px;
+    margin-right: 0vh;
+    margin-left: 81vh;
+    width: 20vh;
+    animation: pulse 0s infinite;
+/*     margin: 0 auto 0 auto; */
+}
+
+#imgserver img {
+    max-width: 90%;
+    opacity: 1.7;
+}
+
+#main-container {
+    right: -200px;
+    bottom: 100px;
+    width: 400px;
+    height: 130px;
+    position: absolute;
+}
+
+#car-container {
+    right: 35px;
+    bottom: 115px;
+    width: 210px;
+    height: 100px;
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+}
+
+#hour-container {
+    right: 31px;
+    top: 20px;
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.vibaBack {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    border-radius: 100%;
+    border: 5px solid rgba(15, 15, 15, 0.6);
+}
+
+.vidaDisplay {
+    stroke: #c51515;
+    stroke-width: 5;
+    fill: transparent;
+    position: absolute;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 50;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    transition: all 2s;
+}
+
+.item-contagem {
+    position: relative;
+    top: -28%;
+    left: 33%;
+    margin-top: 10px;
+}
+
+.coleteback {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    border-radius: 100%;
+    border: 5px solid rgba(15, 15, 15, 0.6);
+}
+
+.coleteDisplay {
+    stroke: #0040ff;
+    stroke-width: 5;
+    fill: transparent;
+    position: absolute;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 50;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    transition: all 2s;
+}
+
+.FomeBack {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    border: 5px solid rgba(15, 15, 15, 0.6);
+}
+
+.FomeDisplay {
+    stroke: #24fa7c;
+    stroke-width: 5;
+    fill: transparent;
+    position: absolute;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 50;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    transition: all 2s;
+}
+
+.SedeBack {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    border: 5px solid rgba(15, 15, 15, 0.6);
+}
+
+.SedeDisplay {
+    stroke: #32c7eb;
+    stroke-width: 5;
+    fill: transparent;
+    position: absolute;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 50;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    transition: all 2s;
+}
+.speeddisplay {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.promocao {
+    position: absolute;
+    background-color: rgb(255 255 255);
+    padding: 5px;
+    width: 12vw;
+    text-align: center;
+    right: 170vh;
+    top: 18.3vh;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.promocao span {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.crime {
+    position: absolute;
+    background-color: rgb(255 255 255);
+    padding: 0.7vh;
+    width: 8.8vw;
+    text-align: center;
+    right: 177vh;
+    top: -30vh;
+    border-radius: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.crime span {
+    color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+svg {
+    margin-top: -4px;
+    margin-left: -5px;
+    position: absolute;
+}
+
+svg {
+    margin-top: -4px;
+    margin-left: -5px;
+    position: absolute;
+}
+
+.middleIcon {
+    color: #999;
+    width: 28px;
+    height: 22px;
+    padding: 6px 0 0;
+    position: absolute;
+    border-radius: 100%;
+    text-align: center;
+    background-size: 90% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.ldBar path.mainline {
+    stroke-width: 5;
+    stroke: rgb(147, 214, 59);
+    stroke-linecap: round;
+    transition: all 0.3s;
+}
+
+.ldBar path.baseline {
+    stroke-width: 5;
+    stroke: #1b1b1b;
+    stroke-linecap: round;
+}
+
+.section {
+    width: 50%;
+}
+
+.item-contagem2 {
+    position: relative;
+    display: inline-block;
+}
+
+.middleIcon2 {
+    color: #999;
+    width: 11px;
+    height: 11px;
+    padding: 5px 0 0;
+    padding-left: 4px;
+    position: absolute;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 11px;
+    background-size: 90% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.speed {
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 5%;
+    left: 33%;
+    transform: rotate(90deg);
+}
+
+.km {
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    transform: rotate(90deg);
+}
+
+.icons2 {
+    transform: rotate(90deg);
+    color: rgb(233, 129, 10);
+    font-size: 15px;
+    position: absolute;
+    top: 68%;
+    left: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.gasolina {
+    transform: rotate(90deg);
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 69%;
+    left: 58%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.cinto img {
+    width: 20px;
+    position: absolute;
+    top: 15%;
+    left: 65%;
+}
+
+#voice {
+    transition: all 0.5s;
+}
+
+.item-hours {
+    min-width: 95px;
+    background: rgb(253, 253, 253);
+    border-radius: 3px;
+    padding: 7px;
+    margin-top: 3px;
+    display: inline-block;
+    text-align: center;
+}
+
+.item-hours .icons {
+    color: #09f;
+    font-size: 15px;
+}
+
+.item-ruas {
+    min-width: 250px;
+    background: rgb(15, 15, 15, 0.6);
+    border-radius: 100%;
+    padding: 12px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.icons3 {
+    color: #050505;
+    font-size: 10px;
+}
+
+.item-ruastext {
+    color: rgb(3, 3, 3);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.item-hourstext {
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#body {
+    display: none;
+    overflow: hidden;
+}
+#pbar_outerdiv {
+    background: rgba(34 185 177, 0.3);
+    bottom: 14.7vh;
+    left: 167.5vh;
+    width: 17vh;
+    height: 1vh;
+    transform: rotate(-90.2deg);
+    position: fixed;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px 30px;
+}
+#pbar_innerdiv {
+    background-color: rgb(34 185 177 / 86%);
+    height: 100%;
+    width: 0%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px 30px;
+}
+#pbar_innertext {
+    top: 0vh;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 1px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* MAPA OVAL */
+.outline {
+    position: fixed;
+    bottom: 8vh;
+    left: 1.1vh;
+    width: 29.529vh;
+    text-align: center;
+}
+.leftoutline {
+    position: fixed;
+    bottom: 8vh;
+    right: 1.1vh;
+    width: 29.529vh;
+    text-align: center;
+}
+.mapborder {
+    display: none;
+    width: 27.100vh;
+    height: 22.10vh;
+    border: 4px solid #9fa3ab;
+    border-radius: 50%;
+    position: relative;
+    top: 23px;
+}
+.leftmapborder {
+    display: none;
+    width: 27.100vh;
+    height: 22.10vh;
+    border: 4px solid #9fa3ab;
+    border-radius: 50%;
+    position: relative;
+    top: 23px;
+}

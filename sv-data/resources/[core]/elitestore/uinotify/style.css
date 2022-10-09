@@ -1,0 +1,140 @@
+html {
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+	background: transparent !important;
+}
+
+body {
+	background: transparent !important;
+}
+
+#notifications {
+	left: 20px;
+	bottom: 400px;
+	display: flex;
+	color: #c6c6c6;
+	font-size: 13px;
+	max-width: 300px;
+	/* overflow: hidden; */
+	letter-spacing: .5px;
+	align-items: flex-start;
+	flex-direction: column;
+	position: absolute !important;
+	font-family: "Roboto",Arial,Helvetica,sans-serif;
+}
+
+.timer-bar {
+    left: 10%;
+    padding: 0;
+    height: 4px;
+    width: 78%;
+	margin-top: 15px;
+	border-radius: 3px 3px 0 0;
+	position: absolute;
+    background-color: #fafafa;
+}
+
+#notifications b {
+	color: #fff;
+	font-weight: 300;
+}
+
+#notifications > div {
+	color: #c6c6c6;
+	margin-top: 10px;
+	line-height: 16px;
+	position: relative;
+	text-shadow: 1px 1px #000;
+	border-radius: 10px;
+	padding: 20px 25px 10px 60px;
+	border-bottom: 9px solid rgba(0, 0, 0, 0);
+	-webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.2); 
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.2);
+}
+
+#sucesso {
+	background: rgb(0, 0, 0, 0.5) url("images/sucesso.svg") no-repeat center left 16px;
+}
+#sucesso > .timer-bar {
+	background: linear-gradient(80deg ,#4df936, #bcfca9) !important;
+}
+
+
+#negado {
+	background: rgb(0, 0, 0, 0.5) url("images/negado.svg") no-repeat center left 16px;
+}
+#negado > .timer-bar {
+	background: linear-gradient(80deg ,#c72b2b, #d65656) !important;
+}
+
+#aviso {
+	background: rgb(0, 0, 0, 0.5) url("images/alert.svg") no-repeat center left 16px;
+}
+#aviso > .timer-bar {
+    background: linear-gradient(80deg ,#F9B036, #FCE4A9) !important;
+}
+
+
+
+
+#adm {
+	background: rgb(0, 0, 0, 0.5) url("images/adm.svg") no-repeat center left 16px;
+}
+#adm > .timer-bar {
+	background: linear-gradient(80deg ,#8136f9, #b5a9fc) !important;
+}
+
+#policia {
+	background: rgb(0, 0, 0, 0.5) url("images/policia.svg") no-repeat center left 16px;
+}
+#policia > .timer-bar {
+	background: linear-gradient(80deg ,#366af9, #a9d7fc) !important;
+}
+
+#hospital {
+	background: rgb(0, 0, 0, 0.5) url("images/hospital.svg") no-repeat center left 16px;
+}
+#hospital > .timer-bar {
+	background: linear-gradient(80deg ,#f93636, #fca9a9) !important;
+}
+
+#loc {
+	background: rgb(0, 0, 0, 0.5) url("images/localizacao.svg") no-repeat center left 16px;
+}
+#loc > .timer-bar {
+    background: linear-gradient(80deg ,#36b1f9, #a9e4fc) !important;
+}
+
+
+
+
+
+#default {
+	line-height: 20px !important;
+	background: rgb(0, 0, 0, 0.5);
+}
+
+#default line {
+	text-shadow: 0 0 transparent !important;
+	color: rgba(255, 255, 255, 0);
+}
+
+
+
+@keyframes disappear {
+    from {
+        opacity: 100%;
+        transform: translateX(0%);
+    }
+
+    to {
+        opacity: 0%;
+        transform: translateX(100%);
+    }
+}
+
+.disappear {
+    animation-name: disappear;
+    animation-duration: 600ms;
+    animation-fill-mode: backwards; 
+}

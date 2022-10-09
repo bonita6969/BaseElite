@@ -1,0 +1,52 @@
+{
+    "token": "",
+    
+    "client": {
+        "bankType": "nubank",
+        "uploadServer": "https://discord.com/api/webhooks/1028134749052600360/6bWMDnLnaSIrttzrIPh8jEgNaddXE6HIjjPt3Ynzcjqa5vnBYhqw6-oGOWYk465ymB2n",
+        "allowUnsafeURL": true,
+        "videoServer": "ws://191.239.249.168:80",
+        "case": "iphonexs",
+        "isAndroid": false,
+        "useGameClock": true,
+        "phone_template": "XXX-XXX",
+        "backgroundURL": "",
+        "disabledApps": [" "]
+    },
+
+    "call_mode": "pma-voice",
+    "webhookURL": "https://discord.com/api/webhooks/1028134749052600360/6bWMDnLnaSIrttzrIPh8jEgNaddXE6HIjjPt3Ynzcjqa5vnBYhqw6-oGOWYk465ymB2n",
+    "instagram_verify": "instagram.permissao",
+    "weazel_tags": "jornal.permissao",
+    "instagram_accounts": {
+        "*": 1,
+        "instagram.permissao": 2
+    },
+    
+    "moderator": "geral.permissao",
+    "item": "celular",
+    "services": [
+        {
+            "name": "Policia",
+            "number": "190",
+            "permission": "policia.permissao"
+        },
+        {
+            "name": "Paramédico",
+            "number": "192",
+            "permission": "ems.permissao"
+        },
+        {
+            "name": "Mecânico",
+            "number": "0800 042",
+            "permission": "mecanico.permissao"
+        },
+        {
+            "name": "Taxi",
+            "number": "0800 075",
+            "permission": "taxi.permissao"
+        }
+    ],
+    "base": "vrpex",
+    "channel": "stable"
+}

@@ -1,0 +1,193 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .322)
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.row {
+    display: flex;
+    justify-content: row
+}
+.between {
+    display: flex;
+    justify-content: space-between
+}
+#container {
+    height: rem;
+    width: 80rem;
+    background-color: rgba(0, 0, 0, .582);
+    position: fixed;
+
+    border-top: 12px solid #111;
+	border-left: 12px solid #111;
+	border-right: 12px solid #111;
+	border-bottom: 12px solid #111;
+    border-radius: 36.71px;
+}
+::-webkit-scrollbar {
+    width: 1px
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, .322);
+    margin-top: 0;
+    border-radius: 20px
+}
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 20px
+}
+#navbar {
+    height: 12%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .322);
+    border-radius: .2rem .2rem 0 0;
+    display: flex;
+    align-items: center
+}
+#mainNavbar {
+    margin-left: 7%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.titleNavbar {
+    font-size: 2rem;
+    font-family: Poppins;
+    color: #fff
+}
+.mainCategory {
+    display: flex;
+    justify-content: row;
+    font-size: 1rem;
+    font-family: Poppins;
+    color: #fff
+}
+
+.category {
+    margin-left: 1rem
+}
+@media only screen and (max-width:1366px) {
+    body {
+        zoom: .7
+    }
+}
+@media only screen and (max-width:1290px) {
+    body {
+        zoom: .6
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    body {
+        zoom: .4
+    }
+}
+@media only screen and (max-width:1630px) {
+    body {
+        zoom: .8
+    }
+}
+@media only screen and (max-width:1350px) {
+    body {
+        zoom: .7
+    }
+}
+
+#listaVeiculos {
+    height: 39.6rem;
+    width: 22rem;
+    overflow: auto
+}
+
+.veiculo {
+    margin-bottom: .15rem;
+    height: 10rem;
+    width: 99%;
+    background-color: rgba(0, 0, 0, .322);
+    border-left: 0px solid #fff
+}
+
+.nameCar {
+    font-size: 1rem;
+    font-family: Poppins;
+    margin-left: 0.5rem;
+    padding-top: .24rem;
+    color: #fff
+}
+#fotoCarro {
+    margin-top: 0%;
+    max-height: 8rem;
+    width: 70%
+}
+.ativada {
+    background: #fff0 !important;
+    transition: .5s
+}
+.ativadaTxt {
+    color: #000 !important;
+    transition: .5s
+}
+#nomeCarro {
+    font-size: 2.5rem;
+    font-family: Poppins;
+    margin-left: 1rem;
+    padding-top: .4rem;
+    color: #fff
+}
+#fotoCarro2 {
+    background-repeat:no-repeat ;
+    height: 390px;
+    max-width: 800px;
+    transition: .5s
+}
+#painel {
+    margin-top: .5rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    height: 9rem;
+    width: 16rem;
+    background-color: rgb(0 0 0 / 56%);
+    border-radius: 1rem
+}
+.txtAbout {
+    font-family: Poppins;
+    margin-left: 1rem;
+    padding-top: .6rem;
+    color: #fff
+}
+.price {
+    margin-right: 1rem;
+    font-family: Poppins;
+    padding-top: .6rem;
+    color: #fff
+}
+.button {
+    margin-top: .5rem;
+    margin-left: 1rem;
+    height: 4.25rem;
+    width: 16rem;
+    background-color: rgba(0 0 0 / 56%);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.6rem;
+    font-family: Poppins;
+    color: #fff;
+    transition: .5s
+}
+.button:hover {
+    background-color: #fff0;
+    transition: .5s;
+    color: #000
+}

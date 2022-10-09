@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="ui.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200&display=swap" rel="stylesheet">
+        <script src="ui.js"></script>
+    </head>
+    <body>
+        <left>
+           <!-- <p><b>Nota:</b>  Os veiculos são abastecidos corretamente. Não emitimos <b>reembolso</b>.</p> -->
+           <!-- <div id="imgserver"><img src="https://media.discordapp.net/attachments/902679973129773137/979519788026048592/ELS.png"></div> -->
+           <div class="user__vehicle">
+            <span class="vehicle__name__model">MODELO</span>
+            <div class="vehicle__model"><img class="model" src="http://131.196.197.44/vrp_vehicles/africat.png"></div>
+        </div>
+          
+           <div class="act">
+                <button id="retirar">Completar</button>
+            </div>
+            <div class="act2">
+                <button id="guardar">Abastecer</button>
+            </div>
+        </left>
+        <div class="container">
+            <small>Abastacer</small><br>
+            <span>Veiculo</span>
+            <div class="box">
+                <span id="title">Preço a Pagar</span>
+                <div class="item" style="border: none;">
+                    <button id="minus" style="font-weight: 500; color: black">-</button>
+                    <input id="amount" type="number" placeholder="Litros %">
+                    <button id="plus" style="right: 5px; font-weight: 500; color: black">+</button>
+                </div>
+            </div>
+            <div class="box">
+                <span id="title">Litros %</span>
+                <div class="item">
+                    <div class="litro">
+                        <span>0%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <span id="title">Preço por litro</span>
+                <div class="item">
+                    <span><span style="font-size: 18px;">R$</span><span id="litre-price">><b>1.00</b></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="modal">
+            <button class="accept btninfo">Aceitar</button>
+            <span>Confirma o abastecimento no valor de <br><b>R$ 85,00</b></span>
+            <button class="recuse btninfo">Recusar</button>
+        </div>
+    </body>
+</html>

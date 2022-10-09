@@ -1,0 +1,723 @@
+
+/** Configurações **/
+:root {
+    --containerColor: rgb(255, 255, 255);
+    --containerBorderRadius: 15px;
+    --containerBorder: solid 1px orange;
+    --imageBorderColor: #ff9100;
+    --principalFont: 'Gotham-Bold';
+    --secondaryFont: 'Gotham-Book';
+}
+
+@font-face { font-family: Gotham-Book; src: url("fonts/Gotham-Book.otf") format("opentype"); }
+@font-face { font-family: Gotham-Bold; src: url("fonts/Gotham-Bold.otf") format("opentype"); }
+
+body {
+    background: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    word-break: normal;
+    word-spacing: normal !important;
+    background: transparent;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: var(--containerColor);
+    border-radius: var(--containerBorderRadius);
+    width: 1000px;
+    height: 670px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.container2 {
+    box-shadow: 0 0 .5em black;
+    padding: 3px;
+    position: absolute;
+    bottom: -1%;
+    left: 50%;
+    transform: translate(-50% , -1%);
+    background-color: var(--containerColor);
+    border-radius: var(--containerBorderRadius);
+    width: 500px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+h1 {
+    vertical-align: middle !important;
+    font-family: 'Gotham-Bold' !important;
+    font-size: 25px !important;
+    border-bottom: var(--containerBorder);
+    padding: 10px;
+}
+
+input {
+    border: solid 2px rgba(128, 128, 128, 0.616); 
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px;
+    font-family: 'Gotham-Book';
+    font-size: 15px;
+}
+
+input:focus {
+    box-shadow: 0 0 .5em orange;
+}
+
+.status1 {
+    margin-top: 20px;
+    position: relative;
+    left: 10%;
+    width: 200px;
+    height: 109px;
+    background: url('img/services.png');
+    border-radius: 15px;
+    transition: transform 0.3s;
+    text-align: center !important;
+    box-sizing: 0 0 .3em black;
+}
+
+.status2 {
+    margin-top: 20px;
+    position: relative;
+    left: 10%;
+    width: 200px;
+    height: 109px;
+    background: url('img/pending.png');
+    border-radius: 15px;
+    transition: transform 0.3s;
+    text-align: center !important;
+    box-sizing: 0 0 .3em black;
+}
+
+.status3 {
+    margin-top: 20px;
+    position: relative;
+    left: 10%;
+    width: 200px;
+    height: 109px;
+    background: url('img/calls.png');
+    border-radius: 15px;
+    transition: transform 0.3s;
+    text-align: center !important;
+    box-sizing: 0 0 .3em black;
+}
+
+.status4 {
+    margin-top: 20px;
+    position: relative;
+    left: 10%;
+    width: 200px;
+    height: 109px;
+    background: url('img/ended.png');
+    border-radius: 15px;
+    transition: transform 0.3s;
+    text-align: center !important;
+    box-sizing: 0 0 .3em black;
+}
+
+.statush3 {
+    font-family: var(--principalFont) !important;
+    color: white !important;
+    font-size: 35px !important;
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center !important;
+    transition: transform 0.3s;
+}
+
+.status1:hover, .status2:hover, .status3:hover, .status4:hover {
+    transform: scale(1.03);
+}
+
+.buttons {
+    border-bottom: none !important; 
+    margin-top: 25px !important; 
+    border-right: solid 2px orange; 
+    border-top: solid 2px orange; 
+    border-top-right-radius: 15px;
+    text-align: initial !important;
+    height: 410px;
+    width: 250px;
+}
+
+.menuButton {
+    margin-top: 13px !important;
+    font-family: var(--principalFont) !important;
+    color: black;
+    background-color: transparent;
+    border: none;
+    transition: transform 0.3s;
+}
+
+.menuButton:hover {
+    zoom: 1.01;
+}
+.menuButton:after {
+    display:block;
+    content: '';
+    border-bottom: solid 2px orange;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+.menuButton:hover:after { transform: scaleX(1); }
+.menuButton:after{  transform-origin:  0% 50%; }
+
+i {
+    color: orange !important;
+}
+
+.pat {
+    margin-left: 15px;
+    height: 410px;
+    text-align: initial !important; 
+    margin-top: 25px !important; 
+    border-left: solid 2px orange; 
+    border-top: solid 2px orange; 
+    border-top-left-radius: 15px;
+}
+
+.atendimentos {
+    height: 350px;
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.atendimento {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 95%;
+    background: rgba(255, 166, 0, 0.76);
+    border-radius: 15px;
+    padding: 10px;
+    animation: slideFromRight;
+    animation-duration: 0.8s;
+}
+
+.deletarAtendimento {
+    text-align: end !important;
+    margin-right: 2%;
+    margin-top: -4px;
+}
+
+.deletarAtendimento i:hover {
+    box-shadow: 0 0 .5em red;
+
+    color: red !important;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.atendimentoTitle {
+    font-size: 17px;
+    color: white;
+    font-family: var(--principalFont);
+}
+
+.atendimentoInfo {
+    margin-left: 20px;
+    font-size: 14px;
+    color: white;
+    font-family: var(--secondaryFont);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #63636310;
+    border-radius: 6px;
+    box-shadow: inset 6px 10px 12px #68686875;
+}
+
+.atender {
+    margin-top: 12px;
+    margin-left: 40px;
+    background-color:rgb(5, 161, 0);
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: var(--principalFont);
+    transition: transform 0.3s;
+}
+
+.atender:hover {
+    transform: scale(1.02);
+}
+
+.encerrar {
+    margin-top: 12px;
+    margin-left: 30px;
+    background-color:rgb(224, 55, 43);
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: var(--principalFont);
+    transition: transform 0.3s;
+}
+
+.encerrar:hover {
+    transform: scale(1.02);
+}
+
+.chamar {
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color:rgb(4, 85, 177);
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: var(--principalFont);
+    transition: transform 0.3s;
+}
+
+.chamar:hover {
+    transform: scale(1.02);
+}
+
+.x-button {
+    position: absolute;
+    right: 11px !important;
+    top: 10px !important;
+    transition: transform 0.3s;
+    border-radius: 50%;
+    background-color: orange;
+    background-size: cover;
+    padding: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-weight: 900;
+    color: white;
+}
+
+.x-button:hover {
+    transform: scale(1.1);
+}
+
+.actionButton {
+    background-color: orange;
+    color: white;
+    font-family: 'Gotham-Bold';
+    font-size: 15px;
+    position: absolute;
+    right: 11px !important;
+    bottom: 10px !important;
+    transition: transform 0.3s;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.actionButton:hover {
+    transform: scale(1.1);
+}
+
+.slideFromBottom {
+    animation: slideFromBottom forwards;
+    animation-duration: .5s;
+}
+
+.slideToBottom { 
+    animation: slideToBottom forwards;
+    animation-duration: .5s;
+}
+
+*:focus {
+    outline:  none;
+}
+
+#alert {
+    position: absolute;
+    width: 350px;
+    top:1%;
+    right: 1%;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    display: none;
+    z-index: 999999;
+    border-radius: 5px;
+    box-shadow: 0 0 .3em black;
+    transition: transform 0.3s;
+    font-family: 'Gotham-Book'
+}
+
+.sucesso {
+    background: #44aa48;
+}
+.info {
+    background: rgb(29, 116, 197);
+}
+.erro {
+    background: #eb2323;
+    animation-delay: .6s;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+}
+
+.userImage {
+    border: solid 2px orange;
+    border-radius: 15px;
+    object-fit: cover !important;
+}
+
+.userInfos {
+    padding-top: 10px;
+    color: black;
+    font-family: 'Gotham-Book';
+    font-size: 15px;
+    border-right: solid 2px orange;
+    border-bottom: solid 2px orange;
+    border-bottom-right-radius: 15px;
+    width: 735px;
+    height: 200px;
+}
+
+.title {
+    font-size: 20px;
+    font-family: 'Gotham-Bold';
+    border-bottom: solid 1px orange;
+    padding-bottom: 1px;
+}
+
+.key {
+    font-family: 'Gotham-Book';
+}
+
+.value {
+    font-family: 'Gotham-Bold';
+}
+
+.photo-button { 
+    box-shadow: 0 0 .5em black;
+    position: absolute;
+    bottom: -5%;
+    right: 5%;
+    width: 35px;
+    height: 35px;
+    background: url('img/photo_button.png');
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.photo-button:hover {
+    transform: rotateY(180deg);
+}
+
+.backButton {
+    position: absolute;
+    top: 1%;
+    left: 40%;
+}
+
+.userActions {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.userActionButton {
+    margin-left: 15px;
+    background-color: orange;
+    color: white;
+    font-family: 'Gotham-Bold';
+    font-size: 18px;
+    transition: transform 0.3s;
+    outline: none;
+    border-radius: 50%;
+    padding: 5px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.2s;
+    transform-style: preserve-3d;
+}
+
+.userActionButton::before {
+    background-color: transparent;
+    font-family: 'Gotham-Book';
+    color: black;
+    content: attr(data-title);
+    display: none;
+    font-size: 14px;
+    width: 180px;
+    position: absolute;
+    bottom: -60%;
+    border-right: solid 2px orange;
+    border-bottom: solid 2px orange;
+    border-bottom-right-radius: 5px;
+    left: -280%;
+    font-style: italic;
+    z-index: 1;
+}
+.userActionButton:hover::before {
+    display: block;
+}
+
+.userActionButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 .2em black;
+}
+
+.userHistory {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-left: solid 2px orange;
+    border-top: solid 2px orange;
+    border-top-left-radius: 15px;
+    width: 98.7%;
+    height: 340px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: -1;
+}
+
+.userHistoryTitle {
+    position: absolute;
+    background-color: white;
+    padding-right: 3px;
+    color: black;
+    right: 5%;
+    font-family: 'Gotham-Bold';
+    top: 47%;
+    padding-left: 5px;
+    z-index: 1;
+}
+
+
+label {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+textarea {
+    width: 900px;
+    height: 190px;
+    resize: none;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Gotham-Book' !important;
+}
+
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 .3em orange;
+}
+
+.descriptionTitle {
+    color: black;
+    font-family: 'Gotham-Bold';
+}
+
+.ocorrencyButtons {
+    position: absolute;
+    bottom: 6%;
+    left: 40%;
+}
+
+
+.gessoButtons {
+    position: absolute;
+    bottom: -100%;
+    left: 150px;
+}
+
+.humanBody {
+    margin-left: 35px;
+    background-image: url(img/body.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    height:  520px;
+    width: 330px;
+}
+
+.select {
+    position: absolute;
+    background-color: rgba(116, 37, 37, 0.26);  
+    border-radius: 10px;
+
+}
+
+.select:hover {
+    border: solid 2px orange;
+    border-radius: 10px;
+}
+
+.selected {
+    border: solid 2px orange;
+    border-radius: 10px;
+    background-color: rgba(54, 180, 60, 0.26);  
+}
+
+.ag_consulta_infos {
+    border-left: solid 3px orange;
+    padding-left: 10px;
+}
+
+.ag_consulta_button {
+    display: inline-block;
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: 'Gotham-Bold';
+    font-size: 16px;
+    transition: transform 0.3s;
+}
+
+.ag_consulta_button:hover {
+    transform: scale(1.02);
+}
+
+.consultas_container {
+    margin-top: 25px;
+    width: 100%;
+    height: 550px;
+    border: solid 3px orange;
+    border-radius: 12px;
+}
+
+.consultas {
+    margin-top: 15px;
+    padding: 5px;
+    height: 450px;
+    max-height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.consulta {
+    margin-top: 10px;
+    width: 100%;
+    background: rgba(255, 166, 0, 0.76);
+    border-radius: 8px;
+    padding: 10px;
+    animation: slideFromRight;
+    animation-duration: 0.8s;
+}
+
+.consultaTitle {
+    font-size: 17px;
+    color: white;
+    font-family: var(--principalFont);
+}
+
+.consultaInfo {
+    margin-left: 20px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Gotham-Book';
+}
+
+.consultaStatus {
+    border: solid 2px white;
+    background: white;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Gotham-Book';
+}
+
+.consultaButton1 {
+    margin-left: 100px;
+    margin-top: 5px;
+    background-color: rgb(19, 150, 7);
+    color: white;
+    font-family: 'Gotham-Bold';
+    font-size: 18px;
+    transition: transform 0.3s;
+    outline: none;
+    border-radius: 50%;
+    padding: 1px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s;
+    transform-style: preserve-3d;
+}
+
+.consultaButton2 {
+    margin-left: 100px;
+    margin-top: 5px;
+    background-color: rgb(230, 28, 28);
+    color: white;
+    font-family: 'Gotham-Bold';
+    font-size: 18px;
+    transition: transform 0.3s;
+    outline: none;
+    border-radius: 50%;
+    padding: 1px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s;
+    transform-style: preserve-3d;
+}
+
+.consultaButton3 {
+    margin-left: 100px;
+    margin-top: 5px;
+    background-color: rgb(30, 137, 224);
+    color: white;
+    font-family: 'Gotham-Bold';
+    font-size: 18px;
+    transition: transform 0.3s;
+    outline: none;
+    border-radius: 50%;
+    padding: 1px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s;
+    transform-style: preserve-3d;
+}
+
+.consultaButton1:hover, .consultaButton2:hover, .consultaButton3:hover {
+    transform: scale(1.05);
+}
+
+
+@keyframes slideFromBottom { 0% { bottom:-50%; } 100% { bottom: 1%; } }
+@keyframes slideToBottom { 0% { top:80%; } 100% { top: 150%; } }
+@keyframes slideFromRight { 0% { margin-left:5000px; } 100% { margin-left: 25px; } }
+@keyframes shake { 10%, 90% { transform: translate3d(-1px, 0, 0); } 20%, 80% { transform: translate3d(2px, 0, 0); } 30%, 50%, 70% { transform: translate3d(-2px, 0, 0); } 40%, 60% { transform: translate3d(2px, 0, 0); } }
+

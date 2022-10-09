@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/pt-br.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div class="content">
+        <div class="top-bar">
+            <div class="nome-grupo">
+                <img class="nome-grupo-img" />
+                <p class="nome-grupo-p"></p>
+            </div>
+            <div class="nav-bar">
+                <div class="nav-bar-item " id="home-option">
+                    <img class="nav-item-img" id="home-icon" src="https://www.svgrepo.com/show/25990/home.svg" />
+                    <!-- Home.svg -->
+                    <p class="nav-item-p" id="home-p">Home</p>
+                </div>
+            </div>
+            <div class="nav-bar1">
+                <div class="nav-bar-item1" id="membros-option">
+                    <img class="nav-item-img1" id="membros-icon" src="https://www.svgrepo.com/show/362174/switch-on.svg" />
+                    <!-- User2.svg -->
+                    <p class="nav-item-p1" id="membros-p">Membros</p>
+                </div>
+            </div>
+            <div class="nav-bar2">
+                <div class="nav-bar-item2" id="offline-option">
+                    <img class="nav-item-img2" id="membros-icon" src="https://www.svgrepo.com/show/362172/switch-off.svg" />
+                    <!-- Offline.svg -->
+                    <p class="nav-item-p2" id="offline-p">Offline</p>
+                </div>
+            </div>                
+            <div class="nav-bar3">
+                <div class="nav-bar-item3" id="bau-option">
+                    <img class="nav-item-img3" id="bau-icon" src="https://www.svgrepo.com/show/245917/chest.svg" /> 
+                    <!-- Bau.svg -->
+                    <p class="nav-item-p3" id="bau-p">Baú</p>
+                </div>
+            </div>
+            <!-- <div class="nav-bar4">
+                <div class="nav-bar-item4" id="banco-option">
+                    <img class="nav-item-img4" id="banco-icon" src="https://api.reis.click/imagens/uploads/21dd8b72-5e21-4a46-9500-54f80665f70d.svg" />
+                    
+                    <p class="nav-item-p4" id="banco-p">Banco</p>
+                </div>
+            </div> -->
+        </div>
+        <div class="home-page">
+            <h1 id="home-page-content-bem-vindo"></h1>
+            <div class="membros-ativos">
+                <h1 id="contador-membros-ativos"></h1>
+                <p id="membros-online-contador"> Membros Ativos</p>
+            </div>
+           <!--  <div class="membros-total">
+                <h1 id="contador-membros-total"></h1>
+                <p>Membros Totais</p>
+            </div> -->
+            <div class="home-page-content"></div>
+        </div>
+         <div class="membros-page">
+          <button class="adicionar-ao-grupo">Adicionar Membro</button>
+        <div class="membros-page-table"></div>
+         <div class="demitir-membro-popup">
+                <h1 class="demitir-texto">Tem certeza que deseja demitir esse membro?</h1>
+                <div class="demitir-membro-botoes">
+                    <button class="demitir-do-grupo">Confirmar</button>
+                    <button class="cancelar-demitir-botao-grupo"> Negar </button>
+                </div>
+            </div>
+            <div class="add-membro-popup">
+                <h1>Qual ID você quer adicionar a organização?</h1>
+                <input type="text" placeholder="Id do Membro" class="id-a-ser-adicionado" />
+                <div class="add-membro-botoes">
+                    <button class="adicionar-botao-grupo">Adicionar</button>
+                    <button class="cancelar-botao-grupo">Negar</button>
+                </div>
+            </div>
+        </div>
+       <div class="bau-page">
+            <div class="bau-page-table"></div>
+        </div>
+        <div class="offline-page">
+            <div class="offline-page-table"></div>
+            <div class="demitir-membro-popup1">
+                <h1 class="demitir-texto1">Tem certeza que deseja demitir esse membro?</h1>
+                <div class="demitir-membro-botoes1">
+                    <button class="demitir-do-grupo1">Confirmar</button>
+                    <button class="cancelar-demitir-botao-grupo1"> Cancelar </button>
+                </div>
+            </div>
+            <div class="playerStatus">Status</div>
+        <div class="banco-page">
+            <h1 class="saldo">R$1000</h1>
+            <button class="adicionar-saldo">Adicionar Saldo</button>
+            <button class="remover-saldo">Remover Saldo</button>
+            <div class="banco-page-table"></div>
+        </div>
+    </div>
+</body>
+
+</html>

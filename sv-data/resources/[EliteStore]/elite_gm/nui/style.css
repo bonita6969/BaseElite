@@ -1,0 +1,2100 @@
+/* HOME */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+@media screen and (min-width:800px) and (max-width:1024px) {
+    .content{
+        zoom: 60% !important;  
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .content{
+        zoom: 80% !important;  
+    }
+}
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+    .content{
+        zoom: 85% !important;  
+    }
+}
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+    .content{
+        zoom: 95% !important;  
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width:1920px){
+    .content{
+        zoom: 84% !important;
+    }
+}
+    /* HOME */
+body {
+    overflow: hidden;
+    user-select: none;
+}
+
+.blobs-container {
+    display: flex;
+}
+
+.blob {
+    background: url("images/background.png");
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    transform: scale(1);
+    animation: pulse-black 2s infinite;
+}
+
+.blob.red {
+    background: rgba(255, 82, 82, 1);
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 1);
+    animation: pulse-red 2s infinite;
+}
+
+.blob.green {
+    background: rgb(88, 255, 82);
+    box-shadow: 0 0 0 0 rgb(88, 255, 82);
+    animation: pulse-green 2s infinite;
+}
+
+.blob.orange {
+    background: rgba(255, 180, 82, 0.7);
+    box-shadow: 0 0 0 0 rgba(255, 180, 82, 0.7);
+    animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-red {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+    }
+}
+
+@keyframes pulse-orange {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 180, 82, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+    }
+}
+
+@keyframes pulse-green {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(111, 255, 82, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+    }
+}
+
+.home {
+    width: 1596px;
+    height: 816px;
+    background-color: rgba(0, 0, 0, 0.75);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    border-radius: 36.71px;
+    overflow: hidden;
+}
+
+.content {
+    top: 50%;
+    left: 50%;
+    width: 1250px;
+    height: 816px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(23, 24, 24, 0.75);
+    /* background: url("images/background.png"); */
+    position: fixed;
+    border-top: 12px solid #111;
+	border-left: 12px solid #111;
+	border-right: 12px solid #111;
+	border-bottom: 40px solid #111;
+    border-radius: 36.71px;
+    overflow: hidden;
+}
+
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.50);
+    position: relative;
+    width: 370px;
+    height: 900.09px;
+}
+
+.nome-grupo {
+    position: relative;
+    top: 40.48px;
+    left: 80px;
+    display: flex;
+}
+
+.nome-grupo-p {
+    font-size: 36.32px;
+    font-family: 'Air Americ', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+}
+
+.nome-grupo-img {
+    margin: 0;
+    padding: 0;
+    width: 48.34px;
+    height: 48.34px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.nav-bar {
+    left: 75px;
+    top: 95px;
+    position: relative;
+    margin: 0;
+    width: 1280px;
+    height: 41.3px;
+    display: flex;
+}
+
+.nav-bar-item {
+    padding: 0;
+    flex: 1;
+    float: left;
+    margin: 0;
+}
+
+.nav-item-p {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+    align-self: baseline;
+}
+
+.nav-item-img {
+    width: 25.48px;
+    height: 25.48px;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    align-self: baseline;
+    padding: 0;
+    margin-bottom: -2px;
+}
+
+.nav-bar1 {
+    left: 75px;
+    top: 175px;
+    position: relative;
+    margin: 0;
+    width: 1280px;
+    height: 41.3px;
+    display: flex;
+}
+
+.nav-bar-item1 {
+    padding: 0;
+    flex: 1;
+    float: left;
+    margin: 0;
+}
+
+.nav-item-p1 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+    align-self: baseline;
+}
+
+.nav-item-img1 {
+    width: 25.48px;
+    height: 25.48px;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    align-self: baseline;
+    padding: 0;
+    margin-bottom: -2px;
+}
+.nav-bar2 {
+    left: 75px;
+    top: 95px;
+    position: relative;
+    margin: 0;
+    width: 1280px;
+    height: 41.3px;
+    display: flex;
+}
+
+.nav-bar-item2 {
+    padding: 0;
+    flex: 1;
+    float: left;
+    margin: 0;
+}
+
+.nav-item-p2 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+    align-self: baseline;
+}
+
+.nav-item-img2 {
+    width: 25.48px;
+    height: 25.48px;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    align-self: baseline;
+    padding: 0;
+    margin-bottom: -2px;
+}
+
+.nav-bar3 {
+    left: 75px;
+    top: 12px;
+    position: relative;
+    margin: 0;
+    width: 1280px;
+    height: 41.3px;
+    display: flex;
+}
+
+.nav-bar-item3 {
+    padding: 0;
+    flex: 1;
+    float: left;
+    margin: 0;
+}
+
+.nav-item-p3 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+    align-self: baseline;
+}
+
+.nav-item-img3 {
+    width: 25.48px;
+    height: 25.48px;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    align-self: baseline;
+    padding: 0;
+    margin-bottom: -2px;
+}
+
+.nav-bar4 {
+    left: 75px;
+    top: 95px;
+    position: relative;
+    margin: 0;
+    width: 1280px;
+    height: 41.3px;
+    display: flex;
+}
+
+.nav-bar-item4 {
+    padding: 0;
+    flex: 1;
+    float: left;
+    margin: 0;
+}
+
+.nav-item-p4 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+    align-self: baseline;
+}
+
+.nav-item-img4 {
+    width: 25.48px;
+    height: 25.48px;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    align-self: baseline;
+    padding: 0;
+    margin-bottom: -2px;
+}
+
+#offline-icon {
+    width: 31px;
+    height: 31px;
+}
+
+.offline-page h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.membros-ativos {
+    background: rgb(0 83 255 / 50%);
+    border-radius: 20px;
+    position: absolute;
+    left: 650.08px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 15px 40px;
+
+}
+
+.membros-offline {
+    background: rgba(0, 255, 42, 0.50);
+    border-radius: 44px;
+    position: absolute;
+    left: 66.08px;
+    top: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    padding: 15px 40px;
+
+}
+
+.membros-offline h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+.membros-offline p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 2;
+    font-weight: 600;
+}
+
+.membros-offline h1 img {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+/* PRETO
+
+.membros-ativos {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 44px;
+  position: absolute;
+  left: 66.08px;
+  top:279.92px;
+  height: 163.36px;
+  width: 445.12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*/
+
+.membros-ativos h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+
+/* preto
+
+.membros-ativos p {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  padding: 0;
+  margin-left: 5px;
+  font-weight: 600;
+}
+*/
+
+.membros-ativos p {
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.membros-ativos h1 img {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.membros-total {
+    background: rgba(0, 85, 255, 0.50);
+    border-radius: 44px;
+    position: absolute;
+    left: 66.08px;
+    top: 450.83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 40px;
+    width: 260px;
+}
+
+
+/* PRETO
+.membros-total {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 44px;
+  position: absolute;
+  left: 66.08px;
+  top: 481.83px;
+  height: 163.36px;
+  width: 445.12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+.membros-total h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+.membros-total p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 0;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.home-page-content { /*Cargos e nomes*/
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    width: 765px;
+    position: absolute;
+    top: 120.47px;
+    left: 425px;
+    text-align: center;
+    height: 120px;
+    scrollbar-width: none;
+    overflow: scroll;
+}
+
+.home-page-content::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+
+#home-page-content-bem-vindo {
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    position: relative;
+    margin-top: -150px;
+    left: 65px;
+}
+
+.membros-dados {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.home-page-content table td {
+    width: 350px;
+    height: 67.91px;
+}
+
+.home-page-content table::-webkit-scrollbar {
+    display: none;
+}
+
+.home-page-content table td:first-child {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.home-page-content table td:last-child {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.home-page-content table th {
+    padding-bottom: 10px;
+}
+
+.home-page-content table {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
+
+
+/* MEMBROS PAGE */
+
+.membros-dados-2 {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.membros-page-table table td {
+    width: 1810.88px;
+    height: 57.91px;
+}
+
+.membros-page-table::-webkit-scrollbar {
+    display: none;
+}
+
+.membros-page-table table td:first-child {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.membros-page-table table td:last-child {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.membros-page-table table th {
+    padding-bottom: 1px;
+}
+
+.membros-page-table table {
+    border-collapse: separate;
+    border-spacing: 0 .5em;
+}
+
+.membros-page {
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    width: 705px;
+    text-align: center;
+    height: 649.03px;
+    text-align: center;
+    top: 15px;
+    left: 380px;
+    position: absolute;
+}
+
+.membros-page-table {
+    overflow-y: scroll;
+    width: 850px;
+    height: 200px;
+    top: 289.95px;
+}
+
+.tabela-membros-home:last-child {
+    margin-bottom: 100px;
+}
+
+.info-btn {
+    width: 150px;
+    height: 33.96px;
+    background-color: rgba(72, 112, 255, 0.75);
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+}
+
+.promover-btn {
+    width: 105px;
+    height: 33.96px;
+    background-color: #096dd9;
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9.78px;
+    border: 0;
+}
+
+.status-wolfzera {
+    width: 150px;
+    height: 33.96px;
+    background-color: rgba(255, 255, 255, 0.658);
+    color: rgb(255, 0, 0);
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+    background: rgb(43, 42, 42);
+    box-shadow: 0 0 0 0 rgb(44, 44, 44);
+    animation: pulse-red 2s infinite;
+}
+
+.status-wolfzeraON {
+    width: 110px;
+    height: 33.96px;
+    color: rgb(51, 255, 0);
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgb(44, 44, 44);
+    animation: pulse-green 2s infinite;
+}
+.status-wolfzeraOFF {
+    width: 110px;
+    height: 33.96px;
+    color: rgb(255, 0, 0);
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgb(44, 44, 44);
+    animation: pulse-red 2s infinite;
+}
+
+.demitir-btn {
+    width: 105px;
+    height: 33.96px;
+    background-color: #d90909;
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9.78px;
+    border: 0;
+}
+
+.adicionar-ao-grupo {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 188px;
+    height: 31px;
+    background-color: #fafafa;
+    color: #000;
+    font-family: 'Air America', sans-serif;
+    font-weight: 100;
+    border-radius: 9.2px;
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.adicionar-ao-grupo img {
+    width: 16px;
+}
+
+.playerStatus {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width: 188px;
+    height: 31px;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #000;
+    font-family: 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+@media screen and (min-width:800px) and (max-width:1024px) {
+    .content{
+        zoom: 60% !important;  
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .content{
+        zoom: 80% !important;  
+    }
+}
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+    .content{
+        zoom: 85% !important;  
+    }
+}
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+    .content{
+        zoom: 95% !important;  
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width:1920px){
+    .content{
+        zoom: 100% !important;
+    }
+}
+    /* HOME */
+body {
+    overflow: hidden;
+    user-select: none;
+}
+
+.blobs-container {
+    display: flex;
+}
+
+.blob {
+    background: black;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    transform: scale(1);
+    animation: pulse-black 2s infinite;
+}
+
+.blob.red {
+    background: rgba(255, 82, 82, 1);
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 1);
+    animation: pulse-red 2s infinite;
+}
+
+.blob.green {
+    background: rgb(88, 255, 82);
+    box-shadow: 0 0 0 0 rgb(88, 255, 82);
+    animation: pulse-green 2s infinite;
+}
+
+.blob.orange {
+    background: rgba(255, 180, 82, 0.7);
+    box-shadow: 0 0 0 0 rgba(255, 180, 82, 0.7);
+    animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-red {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+    }
+}
+
+@keyframes pulse-orange {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 180, 82, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+    }
+}
+
+@keyframes pulse-green {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(111, 255, 82, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+    }
+}
+
+.home {
+    width: 1596px;
+    height: 816px;
+    background-color: rgba(0, 0, 0, 0.75);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    border-radius: 36.71px;
+    overflow: hidden;
+}
+
+.content {
+    width: 1250px;
+    height: 816px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    border-radius: 36.71px;
+    overflow: hidden;
+}
+
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.50);
+    position: relative;
+    width: 359px;
+    height: 835.09px;
+}
+
+.nome-grupo {
+    position: relative;
+    top: 40.48px;
+    left: 80px;
+    display: flex;
+}
+
+.nome-grupo-p {
+    font-size: 36.32px;
+    font-family: 'Air Americ', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+}
+
+.nome-grupo-img {
+    margin: 0;
+    padding: 0;
+    width: 48.34px;
+    height: 48.34px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.nav-bar {
+    left: 75px;
+    top: 95px;
+    position: relative;
+    margin: 0;
+    width: 1280px;
+    height: 41.3px;
+    display: flex;
+}
+
+.nav-bar-item {
+    padding: 0;
+    flex: 1;
+    float: left;
+    margin: 0;
+}
+
+.nav-item-p {
+    font-size: 1.5em;
+    font-family: 'Air America', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+    align-self: baseline;
+}
+
+.nav-item-img {
+    width: 25.48px;
+    height: 25.48px;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    align-self: baseline;
+    padding: 0;
+    margin-bottom: -2px;
+}
+
+.nav-bar1 {
+    left: 75px;
+    top: 95px;
+    position: relative;
+    margin: 0;
+    width: 1280px;
+    height: 41.3px;
+    display: flex;
+}
+
+.nav-bar-item1 {
+    padding: 0;
+    flex: 1;
+    float: left;
+    margin: 0;
+}
+
+.nav-item-p1 {
+    font-size: 1.5em;
+    font-family: 'Air America', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+    align-self: baseline;
+}
+
+.nav-item-img1 {
+    width: 25.48px;
+    height: 25.48px;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    align-self: baseline;
+    padding: 0;
+    margin-bottom: -2px;
+}
+.nav-bar2 {
+    left: 75px;
+    top: 95px;
+    position: relative;
+    margin: 0;
+    width: 1280px;
+    height: 41.3px;
+    display: flex;
+}
+
+.nav-bar-item2 {
+    padding: 0;
+    flex: 1;
+    float: left;
+    margin: 0;
+}
+
+.nav-item-p2 {
+    font-size: 1.5em;
+    font-family: 'Air America', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+    align-self: baseline;
+}
+
+.nav-item-img2 {
+    width: 25.48px;
+    height: 25.48px;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    align-self: baseline;
+    padding: 0;
+    margin-bottom: -2px;
+}
+
+.nav-bar3 {
+    left: 75px;
+    top: 95px;
+    position: relative;
+    margin: 0;
+    width: 1280px;
+    height: 41.3px;
+    display: flex;
+}
+
+.nav-bar-item3 {
+    padding: 0;
+    flex: 1;
+    float: left;
+    margin: 0;
+}
+
+.nav-item-p3 {
+    font-size: 1.5em;
+    font-family: 'Air America', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+    align-self: baseline;
+}
+
+.nav-item-img3 {
+    width: 25.48px;
+    height: 25.48px;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    align-self: baseline;
+    padding: 0;
+    margin-bottom: -2px;
+}
+
+#offline-icon {
+    width: 31px;
+    height: 31px;
+}
+
+.offline-page h1 {
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+}
+
+.membros-ativos {
+    background: rgb(0 83 255 / 50%);
+    border-radius: 20px;
+    position: absolute;
+    left: 650.08px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    padding: 15px 40px;
+
+}
+
+.membros-offline {
+    background: rgba(0, 255, 42, 0.50);
+    border-radius: 44px;
+    position: absolute;
+    left: 66.08px;
+    top: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    padding: 15px 40px;
+
+}
+
+.membros-offline h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+.membros-offline p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.membros-offline h1 img {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+/* PRETO
+
+.membros-ativos {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 44px;
+  position: absolute;
+  left: 66.08px;
+  top:279.92px;
+  height: 163.36px;
+  width: 445.12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*/
+
+.membros-ativos h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+
+/* preto
+
+.membros-ativos p {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  padding: 0;
+  margin-left: 5px;
+  font-weight: 600;
+}
+*/
+
+.membros-ativos p {
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.membros-ativos h1 img {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.membros-total {
+    background: rgba(0, 85, 255, 0.50);
+    border-radius: 44px;
+    position: absolute;
+    left: 66.08px;
+    top: 450.83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 40px;
+    width: 260px;
+}
+
+
+/* PRETO
+.membros-total {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 44px;
+  position: absolute;
+  left: 66.08px;
+  top: 481.83px;
+  height: 163.36px;
+  width: 445.12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+.membros-total h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+.membros-total p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 0;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.home-page-content { /*Cargos e nomes*/
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    width: 765px;
+    position: absolute;
+    top: 120.47px;
+    left: 425px;
+    text-align: center;
+    height: 120px;
+    scrollbar-width: none;
+    overflow: scroll;
+}
+
+.home-page-content::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+
+#home-page-content-bem-vindo {
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    position: relative;
+    margin-top: -90px;
+    left: 65px;
+}
+
+.membros-dados {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.home-page-content table td {
+    width: 350px;
+    height: 67.91px;
+}
+
+.home-page-content table::-webkit-scrollbar {
+    display: none;
+}
+
+.home-page-content table td:first-child {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.home-page-content table td:last-child {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.home-page-content table th {
+    padding-bottom: 10px;
+}
+
+.home-page-content table {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
+
+
+/* MEMBROS PAGE */
+
+.membros-dados-2 {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.membros-page-table table td {
+    width: 1810.88px;
+    height: 57.91px;
+}
+
+.membros-page-table::-webkit-scrollbar {
+    display: none;
+}
+
+.membros-page-table table td:first-child {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.membros-page-table table td:last-child {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.membros-page-table table th {
+    padding-bottom: 1px;
+}
+
+.membros-page-table table {
+    border-collapse: separate;
+    border-spacing: 0 .5em;
+}
+
+.membros-page {
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    width: 705px;
+    text-align: center;
+    height: 649.03px;
+    text-align: center;
+    top: 15px;
+    left: 380px;
+    position: absolute;
+}
+
+.membros-page-table {
+    overflow-y: scroll;
+    width: 850px;
+    height: 200px;
+    top: 289.95px;
+}
+
+.tabela-membros-home:last-child {
+    margin-bottom: 100px;
+}
+
+.info-btn {
+    width: 150px;
+    height: 33.96px;
+    background-color: rgba(72, 112, 255, 0.75);
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+}
+
+.promover-btn {
+    width: 105px;
+    height: 33.96px;
+    background-color: #096dd9;
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9.78px;
+    border: 0;
+}
+
+.status-wolfzera {
+    width: 150px;
+    height: 33.96px;
+    background-color: rgba(255, 255, 255, 0.658);
+    color: rgb(255, 0, 0);
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+    background: rgb(43, 42, 42);
+    box-shadow: 0 0 0 0 rgb(44, 44, 44);
+    animation: pulse-red 2s infinite;
+}
+
+.status-wolfzeraON {
+    width: 110px;
+    height: 33.96px;
+    color: rgb(51, 255, 0);
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgb(44, 44, 44);
+    animation: pulse-green 2s infinite;
+}
+.status-wolfzeraOFF {
+    width: 110px;
+    height: 33.96px;
+    color: rgb(255, 0, 0);
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgb(44, 44, 44);
+    animation: pulse-red 2s infinite;
+}
+
+.demitir-btn {
+    width: 105px;
+    height: 33.96px;
+    background-color: #d90909;
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9.78px;
+    border: 0;
+}
+
+.adicionar-ao-grupo {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 188px;
+    height: 31px;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    border-radius: 11.78px;
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.adicionar-ao-grupo img {
+    width: 16px;
+}
+
+.playerStatus {
+    margin-top: 995px;
+    margin-bottom: 5px;
+    width: 188px;
+    height: 0px;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #000;
+    font-family: 'Air America', sans-serif;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.playerStatus img {
+    width: 16px;
+}
+
+.add-membro-popup {
+    top: 30%;
+    left: 50%;
+    background: #cccccc;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 476px;
+    height: 165px;
+    border-radius: 44px;
+    text-align: center;
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-membro-popup input {
+    width: 200px;
+    font-size: 15px;
+    height: 25px;
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    border-radius: 22px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.add-membro-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.add-membro-popup input:focus {
+    outline: none;
+}
+
+.adicionar-botao-grupo {
+    background-color: rgb(41, 153, 53);
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 22px;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.cancelar-botao-grupo {
+    background-color: rgb(255, 72, 72);
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 22px;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.promover-membro-popup {
+    top: 30%;
+    left: 50%;
+    background: #cccccc;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 476px;
+    height: 165px;
+    border-radius: 44px;
+    text-align: center;
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.demitir-membro-popup {
+    top: 30%;
+    left: 50%;
+    background: #cccccc;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 476px;
+    height: 165px;
+    border-radius: 44px;
+    text-align: center;
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.demitir-do-grupo {
+    background-color: rgb(41, 153, 53);
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 22px;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.cancelar-demitir-botao-grupo {
+    background-color: rgb(255, 72, 72);
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 22px;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.demitir-membro-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* BAU PAGE */
+
+.tabela-bau:last-child {
+    margin-bottom: 100px;
+}
+
+.bau-dados-2 {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.bau-page-table table td {
+    text-align: center;
+    width: 250px;
+    height: 58px;
+}
+
+.bau-page-table::-webkit-scrollbar {
+    display: none;
+}
+
+.bau-page-table table td:first-child {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.bau-page-table table td:last-child {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.bau-page-table table th {
+    padding-bottom: 10px;
+}
+
+.bau-page-table table {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
+
+.bau-page {
+
+    margin: 10px;
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    width: 1225px;
+    height: 816px;
+}
+
+.bau-page-table {
+    height: 647.03px;
+    margin-top: 35px;
+    scrollbar-width: none;
+    overflow: scroll;
+    width: 1225px;
+    height: 600px;
+
+}
+
+
+/* offline PAGE */
+
+.tabela-offline:last-child {
+    margin-bottom: 100px;
+}
+
+.offline-dados-2 {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.offline-page-table table td {
+    width: 771.88px;
+    height: 67.91px;
+}
+
+.offline-page-table::-webkit-scrollbar {
+    display: none;
+}
+
+.offline-page-table table td:first-child {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.offline-page-table table td:last-child {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.offline-page-table table th {
+    padding-bottom: 10px;
+}
+
+.offline-page-table table {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
+
+.offline-page {
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    width: 1225px;
+    text-align: center;
+    height: 647.03px;
+    text-align: center;
+    margin: 20px;
+    position: absolute;
+}
+
+.offline-page-table {
+    overflow-y: scroll;
+    width: 1225px;
+    height: 600px;
+    top: 289.95px;
+}
+
+.activeBorde{
+    border-bottom: 3px solid white;
+}', sans-serif;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.playerStatus img {
+    width: 16px;
+}
+
+.add-membro-popup {
+    top: 80%;
+    left: -29%;
+    background: #cccccc;
+    color: #000;
+    font-family: 'Air America', sans-serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 310px;
+    height: 355px;
+    border-radius: 44px;
+    text-align: center;
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-membro-popup input {
+    width: 200px;
+    font-size: 15px;
+    height: 25px;
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    border-radius: 9.1px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.add-membro-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.add-membro-popup input:focus {
+    outline: none;
+}
+
+.adicionar-botao-grupo {
+    background-color: #1890ff;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 22px;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.cancelar-botao-grupo {
+    background-color: rgb(255 1 1);
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 22px;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.promover-membro-popup {
+    top: 80%;
+    left: -29%;
+    background: #cccccc;
+    color: #000;
+    font-family: 'Air America', sans-serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 310px;
+    height: 355px;
+    border-radius: 44px;
+    text-align: center;
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.demitir-membro-popup {
+    top: 80%;
+    left: -28.5%;
+    background: #cccccc;
+    color: #000;
+    font-family: 'Air America', sans-serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 310px;
+    height: 355px;
+    border-radius: 44px;
+    text-align: center;
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.demitir-do-grupo {
+    background-color: #1890ff;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Air America', sans-serif;
+    border-radius: 22px;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.cancelar-demitir-botao-grupo {
+    background-color: rgb(255 0 0);
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Air America', sans-serif;
+    border-radius: 22px;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.demitir-membro-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* BAU PAGE */
+
+.tabela-bau:last-child {
+    margin-bottom: 100px;
+}
+
+.bau-dados-2 {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.bau-page-table table td {
+    text-align: center;
+    width: 140px;
+    height: 5px;
+}
+
+.bau-page-table::-webkit-scrollbar {
+    display: none;
+}
+
+.bau-page-table table td:first-child {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.bau-page-table table td:last-child {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.bau-page-table table th {
+    padding-bottom: 10px;
+}
+
+.bau-page-table table {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
+
+.bau-page {
+
+    margin: 10px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    width: 1225px;
+    height: 816px;
+}
+
+.bau-page-table {
+    height: 647.03px;
+    margin-top: -860px;
+    margin-left: 375px;
+    scrollbar-width: none;
+    overflow: scroll;
+    width: 880px;
+    height: 600px;
+
+}
+
+
+/* BANCO PAGE */
+
+.tabela-offline:last-child {
+    margin-bottom: 100px;
+}
+
+.offline-dados-2 {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.offline-page-table table td {
+    width: 168.88px;
+    height: 50.91px;
+}
+
+.offline-page-table::-webkit-scrollbar {
+    display: none;
+}
+
+.offline-page-table table td:first-child {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.offline-page-table table td:last-child {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.offline-page-table table th {
+    padding-bottom: 10px;
+}
+
+.offline-page-table table {
+    border-collapse: separate;
+    border-spacing: 0 0.1em;
+}
+
+.offline-page {
+    color: #fff;
+    font-family: 'Air America', sans-serif;
+    top: 30px;
+    left: 363px;
+    text-align: center;
+    height: 647.03px;
+    text-align: center;
+    margin: 20px;
+    position: absolute;
+}
+
+.offline-page-table {
+    overflow-y: scroll;
+    width: 1212px;
+    height: 5050px;
+}
+/* BANCO PAGE */
+
+.tabela-banco:last-child {
+    margin-bottom: 100px;
+}
+
+.banco-dados-2 {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.banco-page-table table td {
+    width: 300px;
+    height: 68px;
+}
+
+.banco-page-table::-webkit-scrollbar {
+    display: none;
+}
+
+.banco-page-table table td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.banco-page-table table td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.banco-page-table table th {
+    padding-bottom: 10px;
+}
+
+.banco-page-table table {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
+
+.banco-page {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    left: -15px;
+    top: 149.95px;
+    position: absolute;
+    width: 1596px;
+    height: 816px;
+}
+
+.banco-page-table {
+    height: 550px;
+    margin-top: 200px;
+    scrollbar-width: none;
+    overflow: scroll;
+    width: 900px;
+    margin-left:350px;  
+}
+
+.saldo {
+    position: absolute;
+    top: 100px;
+    left: 77px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56.43px;
+    color: #fff;
+}
+
+.adicionar-saldo {
+    width: 188px;
+    height: 31px;
+    background-color: rgba(41, 153, 53, 0.75);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+    top: 250px;
+    left: 77px;
+    position: absolute;
+}
+
+.remover-saldo {
+    width: 188px;
+    height: 31px;
+    background-color: rgba(255, 72, 72, 0.75);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 91.78px;
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 300px;
+    left: 77px;
+}
+
+.activeBorde{
+    border-bottom: 3px solid white;
+}

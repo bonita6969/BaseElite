@@ -1,0 +1,478 @@
+::-webkit-scrollbar { width: 6px; }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { -webkit-appearance: none; }
+
+body {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-family: "Roboto",Arial,Helvetica,sans-serif;
+}
+
+* {
+	overflow: hidden;
+	user-select: none;
+	box-sizing: border-box;
+}
+
+.inventory {
+	width: 100vw;
+	height: 100vh;
+	display: none;
+	position: fixed;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: rgba(0,0,0,0.55);
+}
+
+.crafting {
+	width: 100vw;
+	height: 100vh;
+	display: none;
+	position: fixed;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: rgba(0,0,0,0.55);
+}
+
+.invweight {
+	float: left;
+	min-height: 5px;
+	max-height: 5px;
+	min-width: 1400px;
+	max-width: 1400px;
+	margin-bottom: 5px;
+}
+
+.innerInventory {
+	display: flex;
+	flex-direction: column;
+}
+
+.sections {
+	height: 589px;
+	display: flex;
+}
+
+.invLeft, .invRight {
+	row-gap: 3px;
+	display: grid;
+	column-gap: 3px;
+	overflow-y: scroll;
+	padding-right: 3px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.item, .item2 {
+	width: 5.56vw;
+	height: 10.42vh;
+	display: flex;
+	border-radius: 0.4375rem;
+	border: 0.0625rem solid rgba(255, 255, 255, 0.25);
+	flex-direction: column;
+	text-shadow: 0.0625rem 10.0625rem #000;
+	background: rgba(30, 26, 30, 0.5);
+	box-shadow: 0.1875rem 0.1875rem 0.3125rem 0rem rgba(255,255,255,0.75);
+	-webkit-box-shadow: 0.1875rem 0.1875rem 0.3125rem 0rem rgba(255,255,255,0.75);
+	-moz-box-shadow: 0.1875rem 0.1875rem 0.3125rem 0rem rgba(255,255,255,0.75);
+}
+
+.populated {
+	background-size: 90% !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+}
+
+.populated:hover, .hoverControl {
+	background-color: #1f1f1fb9 !important;
+}
+
+.item .top {
+	display: flex;
+	color: #8c8c8c;
+	font-size: .7rem;
+	justify-content: space-between;
+}
+
+.itemAmount {
+	margin: 1px 0px 0 0;
+    color: white;
+    background-color: rgb(255 255 255 / 20%);
+	padding: .20rem;
+	border-radius: .2rem;
+}
+
+.itemWeight {
+	margin: 10px 0 0 10px;
+}
+
+.item .itemname {
+	margin-top: auto;
+	margin-left: 0.12vh;
+	align-self: center;
+
+	width: 100%;
+	color: white;
+	padding: .10rem;
+
+	letter-spacing: 1px;
+	font-size: .6rem;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	border-radius: 0px;
+
+	text-shadow: 0px 0px rgb(163, 163, 163);
+	background-color: rgb(255 255 255 / 20%)
+
+}
+
+.invMiddle {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.invMiddle input {
+	margin: 0.8125rem;
+	font-size: .75rem;
+	letter-spacing: 0.0625rem;
+	border-radius: 0.4375rem;
+	border: 0.0625rem solid rgba(255, 255, 255, 0.25);
+	background: rgba(30, 26, 30, 0.5);
+	box-shadow: 0.1875rem 0.1875rem 0.3125rem 0rem rgba(255,255,255,0.75);
+	-webkit-box-shadow: 0.1875rem 0.1875rem 0.3125rem 0rem rgba(255,255,255,0.75);
+	-moz-box-shadow: 0.1875rem 0.1875rem 0.3125rem 0rem rgba(255,255,255,0.75);
+    /* opacity: 0.5; */
+	padding: 1rem 0.25rem;
+}
+
+#weight {
+	max-width: 596px;
+}
+
+#weightTextLeft {
+	float: left;
+	color: #9c9c9c;
+	font-size: 12px;
+	min-width: 580px;
+	max-width: 580px;
+	text-align: right;
+	margin-right: 30px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+#weightBarLeft {
+	float: left;
+	min-height: 10px;
+	max-height: 10px;
+	min-width: 596px;
+	max-width: 596px;
+	margin-bottom: 5px;
+	border-radius: 4px;
+	background: #3f455c;
+}
+
+#weightTextRight {
+	float: right;
+	color: #9c9c9c;
+	font-size: 12px;
+	min-width: 580px;
+	max-width: 580px;
+	text-align: left;
+	margin-left: 15px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+#weightBarRight {
+	float: right;
+	min-height: 10px;
+	max-height: 10px;
+	min-width: 596px;
+	max-width: 596px;
+	border-radius: 4px;
+	margin-bottom: 5px;
+	background: #3f455c;
+}
+
+#weightContent {
+	float: left;
+	min-height: 10px;
+	max-height: 10px;
+	max-width: 596px;
+	border-radius: 4px;
+	background: #737ea0;
+	transition: all 0.9s;
+}
+
+.invMiddle input, .invMiddle input::placeholder {
+	text-align: center;
+	appearance: none;
+	outline: none;
+	border-radius: 7px;
+	width: 70%;
+	color: #FFF;
+}
+
+.myInfos {
+	align-self: flex-start;
+	right: 0vh;
+	margin-left: 52.5vh;
+}
+
+.infosContent {
+	padding-top: 1px;
+	font-size: .80rem;
+	color: #b3b3b3;
+}
+
+.infosContent span {
+	letter-spacing: 0px;
+	padding-right: 10vh;
+	right: 10vh;
+	margin-right: 1.1vh;
+}
+
+.myInfos b {
+	font-size: 1.5rem;
+	padding-bottom: 15px;
+}
+
+.myInfos i {
+	color: #b3b3b3;
+	font-weight: 1300;
+}
+
+.myInfos s {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+.slotNumber {
+	width: 24px;
+	height: 24px;
+	padding: 6px 0 0;
+	font-size: 0.6rem;
+	text-align: center;
+	color: rgba(19,22,28,1.0);
+	background: rgba(255,255,255,0.75);
+}
+
+.topInfo {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 25px;
+}
+
+.recipe {
+	font-size: 14px;
+	display: none;
+	color: #ffffffd3;
+	margin-right: 20px;
+	background: #1f1f1f44;
+	border-radius: 7px;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	padding: 8px 12px 8px 5px;
+	height: 32px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+/* CSS DO HOMES */
+.use, .submit, .drop {
+	background: rgba(0, 0, 0,0.25);
+}
+
+.amount {
+	user-select: none; 
+}
+
+#middleButton {
+	color: #fff;
+	width: 120px;
+	padding: 19px 0;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+	text-shadow: 1px 1px #000;
+	box-shadow: inset 0 0 1px 1px rgba(0, 0, 0,0.4);
+}
+
+#durability {
+	float: left;
+	height: 3px;
+	width: 118px;
+	margin-left: 1px;
+	background: #1a8547;
+}
+
+#durability2 {
+	float: left;
+	height: 3px;
+	background: #2eb969;
+}
+
+#nonebility {
+	float: left;
+	height: 3px;
+	width: 118px;
+	margin-left: 1px;
+	background: rgba(0,0,0,0.3);
+}
+
+.peso {
+	float: left;
+	width: 35px;
+	height: 30px;
+	font-size: 10px;
+	text-align: left;
+	padding: 15px 0 0 15px;
+	text-shadow: 1px 1px #000;
+}
+
+.quantity {
+	float: left;
+	width: 55px;
+	height: 30px;
+	font-size: 10px;
+	text-align: right;
+	padding: 15px 15px 0 0;
+	text-shadow: 1px 1px #000;
+}
+
+.chestWeight {
+	float: left;
+	min-height: 5px;
+	max-height: 5px;
+	min-width: 620px;
+	max-width: 620px;
+	background: #2c2c2ccc;
+	margin-left: 150px;
+}
+
+.myWeight {
+	float: left;
+	min-height: 5px;
+	max-height: 5px;
+	min-width: 620px;
+	max-width: 620px;
+	background: #2c2c2ccc;
+}
+.myWeightContent, .chestWeightContent {
+	float: left;
+	min-height: 5px;
+	max-height: 5px;
+	max-width: 620px;
+	background: #727272;
+}
+/*  ACABA AQUI O HOMESS, SE NÃƒÆ’O DER CERTO O CSS VOU TIRAR E POR SEPARADO O DA CASA */
+
+
+
+/* TENTATIVA PARA REPRAR O HOME */
+
+#invright {
+	float: left;
+	overflow-x: auto;
+	min-width: 630px;
+	max-width: 630px;
+	min-height: 435px;
+    max-height: 435px;
+}
+#invmiddle {
+	float: left;
+	margin: 0 10px;
+	min-height: 55px;
+	max-height: 495px;
+}
+
+#invmiddle input, #invmiddle input::placeholder {
+	border: 0;
+	color: #fff;
+	padding: 18px 0;
+	background: rgba(146, 144, 144, 0.25);
+}
+
+.itemname {
+	color: #fff;
+	float: left;
+	width: 102px;
+	overflow: hidden;
+	text-align: center;
+	margin: 64px 1px 0;
+	white-space: nowrap;
+	letter-spacing: 1.5px;
+	padding: 10px 8px 6px;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #000;
+	background: rgba(0,0,0,0.3);
+}
+
+
+#invleft {
+	float: left;
+	overflow-x: auto;
+	min-width: 630px;
+	max-width: 630px;
+	min-height: 435px;
+    max-height: 435px;
+}
+#inventory {
+	top: 50%;
+	left: 50%;
+	height: 610px;
+	width: 1400px;
+	overflow: hidden;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+.myInfos2 {
+	float: left;
+	padding: 100px;
+	min-width: 1400px;
+	max-width: 1400px;
+	margin-bottom: 5px;
+}
+
+#myInfos b {
+	font-family: 'Roboto';
+	letter-spacing: 1px;
+	font-size: 2rem;
+
+	color: #fff;
+	display: block;
+	padding-bottom: 15px;
+}
+
+#myInfos s {
+	color: #dfdfdf;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+#myInfos i {
+	color: #b3b3b3;
+	font-weight: 300;
+}
+
+.myInfosContent {
+	padding-top: 12px;
+	font-size: .80rem;
+	justify-content: space-between;
+	color: #b3b3b3;
+}
+
+.myInfosContent span {
+	letter-spacing: 1px;
+	margin-right: 18px;
+}

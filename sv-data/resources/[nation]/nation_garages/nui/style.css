@@ -1,0 +1,907 @@
+
+@font-face {
+    font-family: "Monument Extended Ultrabold";
+    src: url("fonts/MonumentExtended-Ultrabold.otf");
+}
+
+@font-face {
+    font-family: "Monument Extended Regular";
+    src: url("fonts/MonumentExtended-Regular.otf");
+}
+
+@font-face {
+    font-family: "DINPro-Regular";
+    src: url("fonts/DINPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DINPro-Bold";
+    src: url("fonts/DINPro-Bold.ttf") format("truetype");
+}
+
+body {
+    overflow: hidden;
+    user-select: none;
+}  
+
+
+.menu-container {
+    display: none;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+.car-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80%;
+    width: 60%;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.car-image img {
+    position: relative;
+    width: 80%;
+    margin-top: 5%;
+}
+
+
+#menu {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+
+}
+
+
+
+.container {
+    position: relative;
+    width: 90%;
+    height: 85%;
+    margin: auto;
+}
+
+.vehicle-name {
+    color: white;
+    position: absolute;
+    width: fit-content;
+    max-width: 5%;
+    height: fit-content;
+    padding: 0.2%;
+    background-color: #00e1ff; 
+    font-family: "Monument Extended Regular";
+    font-size: .6vw;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    overflow-wrap: break-word;
+}
+
+
+.car-info {
+    position: relative;
+    margin: 1% auto;
+    width: 100%;
+    height: 75%;
+    border-left: solid 9px #01687400;
+    background-color: #1647ce00;
+    border-radius: 3px;
+    opacity: 0;
+    overflow-y: scroll;
+}
+
+.car-name {
+    position: relative;
+    top: 10%;
+    margin-left: 5%;
+    width: fit-content;
+    max-width: 40%;
+    height: fit-content;
+    color: white;
+    font-family: "Monument Extended Ultrabold";
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    overflow: hidden;
+}
+
+.car-class {
+    position: relative;
+    letter-spacing: 5px;
+    font-size: 0.9vw;
+    color: white;
+    text-transform: uppercase;
+    font-family: "DINPro-Regular";
+    background-color: #00e1ff;
+    margin: 4% 5.1%;
+    width: fit-content;
+    text-align: center;
+    padding: 0.2%;
+}
+
+
+.dados {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23%;
+    height: 100%;
+    background: #9900ff00;
+    overflow-y: scroll;
+}
+
+.dados-gerais {
+    margin-top: 8%;
+    margin-bottom: 5%;
+    line-height: 80%;
+    color: white;
+    font-size: 2.2vw;
+    font-family: "Monument Extended Ultrabold";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.info-container {
+    position: relative;
+    width: 70%;
+    height: fit-content;
+    margin: 2% 0 0 15%;
+    color: white;
+    font-family: "DINPro-Bold";
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    border-bottom: 3px solid #0000004b;
+    padding-top: 3%;
+}
+
+.info-container p{
+    position: relative;
+    margin: 0;
+}
+
+.info-container i {
+    color: #FF5762; 
+    text-shadow: 0px 0px 5px white;
+}
+
+/* .space {
+    margin-top: 5%;
+} */
+
+.seguradora{
+    color: rgba(255, 217, 0);
+}
+
+.detido{
+    color: #FF5762;
+}
+
+#status {
+    font-family: "DINPro-Regular";
+    text-transform: none;
+}
+
+.buttons {
+    position: absolute;
+    right: 0;
+    bottom: 1%;
+    margin: auto;
+    height: 5%;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    margin: auto 3%;
+    height: 40%;
+    width: 15%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .5);
+    transition: background 0.5s;
+}
+
+.botao:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.botao-focus {
+    background-color: white;
+}
+
+.bar-container {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bar-filled {
+    position: relative;
+    margin-right: 3%;
+    margin-top: 3%;
+    height: .35vw;
+    width: 0%;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+}
+
+
+#gasolina, #chassi, #motor {
+    font-size: 0.8vw;
+}
+
+#trunk {
+    font-size: 0.7vw;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.green {
+    background-color: #00e1ff;
+}
+
+.yellow {
+    background-color: #FFEE57;
+}
+
+.red {
+   background-color: #FF5762; 
+}
+
+#liberacao {
+    position: relative;
+    top: 15%;
+    font-family: "DINPro-Regular";
+    text-transform: none;
+}
+
+.vehicle-selector {
+    position: relative;
+    height: 24%;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 0 2%;
+}
+
+
+
+
+.vehicle {
+    margin: .5% 0.5% 0 0;
+    width: 11%;
+    height: 65%;
+    background-color: transparent;
+    border-radius: 3px;
+    opacity: 0.3;
+    display: flex;
+    flex: 0 0 auto;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+}
+
+.vehicle img {
+    margin: auto;
+    width: 100%;
+}
+
+.vehicle:hover {
+    opacity: 0.7;
+    width: 13%;
+    height: 75%;
+}
+
+
+.vehicle:active {
+    box-shadow: 0px 0px 0px 1px #7600C5;
+    animation: anim-shadow .6s forwards;
+    border-bottom: solid 5px #0DE6FF;
+    width: 13%;
+    height: 75%;
+}
+
+.vehicle-focus {
+    opacity: 1;
+    border-bottom: solid 5px #0DE6FF;
+    width: 13%;
+    height: 75%;
+}
+
+.tunning-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23%;
+    height: 100%;
+    background: #b1072f00;
+    overflow-y: scroll;
+}
+
+
+
+.tunning-container p {
+    display: none;
+    margin-bottom: 5%;
+    line-height: 80%;
+    color: white;
+    font-size: 2.2vw;
+    font-family: "Monument Extended Ultrabold";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.tunning-item {
+    margin: 2% 10%;
+    height: 11%;
+    /* display: flex; */
+    display: none;
+    align-items: center;
+    font-size: 0.8vw;
+    background-color: rgba(255, 255, 255, 0.02);
+    border-top: solid 2px #00d9ff;
+    font-family: "DINPro-Bold";
+    text-transform: uppercase;
+    color: white;
+    transition: background .5s;
+}
+
+.tunning-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tunning-item img {
+    width: 15%;
+    margin: 0 3%;
+}
+
+.tunning-item b{
+    color: rgb(94, 255, 94);
+}
+
+.tunning-item a{
+    color: yellow;
+}
+
+.tunning-item strong{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.tunning-item span {
+    text-align: right;
+    color: rgba(253, 194, 0, 0.75);
+    width: 100%;
+    margin-right: 2%;
+}
+  
+
+
+@keyframes anim-shadow {
+	100% {
+		box-shadow: 0px 0px 50px 20px rgba(112,111,211,0);
+	}
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0.4vw;
+    border-radius: .2rem;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #00b7ff;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #00ccff;
+}
+
+ ::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(left, #22ADD4, #1E98BA);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttons-container {
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    left: 5%;
+    bottom: 5%;
+
+}
+
+
+
+  
+  .btn {
+    border: none;
+    background: none;
+    color: var(--button-text-color);
+    
+    font-family: "Monument Extended Regular";
+    letter-spacing: 2px;
+
+    --button-text-color: var(--background-color);
+    --button-text-color-hover: var(--button-background-color);
+    --border-color: #cccccc;
+    --button-background-color: #ece8e1;
+    --highlight-color:#0DE6FF;
+    --slide-color: #0de7ff7e;
+    --button-inner-border-color: transparent;
+    --button-bits-color: var(--background-color);
+    --button-bits-color-hover: var(--button-background-color);
+    
+    position: relative;
+    padding: 3%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7vw;
+    transition: all .15s ease;
+    width: 60%;
+    margin-top: 5%;
+    text-align: center;
+
+
+  }
+  
+  .btn::before,
+  .btn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0; left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid var(--border-color);
+    transition: all .15s ease;
+  }
+  
+  .btn::before {
+    top: 0;
+    border-bottom-width: 0;
+  }
+  
+  .btn::after {
+    bottom: 0;
+    border-top-width: 0;
+  }
+  
+  .btn:active,
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:active::before,
+  .btn:active::after {
+    right: 3px;
+    left: 3px;
+  }
+  
+  .btn:active::before {
+    top: 3px;
+  }
+  
+  .btn:active::after {
+    bottom: 3px;
+  }
+  
+  .btn__inner {
+    position: relative;
+    display: block;
+    padding: 10% 25%;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px var(--button-inner-border-color);
+  }
+  
+  .btn__inner::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: var(--button-bits-color);
+  }
+  
+.btn__inner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0; bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: var(--button-bits-color);
+    transition: all .2s ease;
+  } 
+  .btn__slide {
+    display: block;
+    position: absolute;
+    top: 0; bottom: -1px; left: -8px;
+    width: 0;
+    background-color: var(--slide-color);
+    transform: skew(-15deg);
+    transition: all .5s ease;
+  }
+  
+  .btn__content {
+    position: relative;
+  }
+  
+  .btn:hover {
+    color: var(--button-text-color-hover);
+  }
+  
+  .btn:hover .btn__slide {
+    width: calc(100% + 15px);
+  }
+  
+  .btn:hover .btn__inner::after {
+    background-color: var(--button-bits-color-hover);
+  }
+  
+  .btn--light {
+    --button-background-color: var(--background-color);
+    --button-text-color: var(--highlight-color);
+    --button-inner-border-color: var(--highlight-color);
+    --button-text-color-hover: #ece8e1;
+    --button-bits-color-hover: #ece8e1;
+  }
+
+  .btn--guardar {
+    --highlight-color:#00e1ff;
+    --slide-color: #00e1ff94;
+  }
+
+  .btn--guardar-proximo {
+    --highlight-color:#ffee00;
+    --slide-color: #b9b603b2;
+    font-size: .4vw;
+  }
+
+  .line {
+      top: 40%;
+      position: absolute;
+      width: 77%;
+      height: 15%;
+      background: linear-gradient(90deg, rgba(13, 231, 255, 0) 0%, rgba(128,1,1,0) 50%,  #9900ff00 100%);
+  }
+
+  .line2 {
+    background: linear-gradient(90deg, rgba(13, 231, 255, 0) 0%, rgba(128,1,1,0) 50%,  rgba(225, 33, 78, 0) 100%);
+  }
+
+
+
+
+
+
+
+
+.popup-container {
+    display: none;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30%;
+    height: 40%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 10px rgba(253, 253, 253, 0.15);
+    font-family: "DINPro-Regular";
+    color: white;
+}
+.popup-top {
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 75%;
+    width: 100%;
+    background: linear-gradient(154deg, rgba(240,86,86,1) 0%, rgba(240,86,86,1) 50%, rgba(231,77,79,1) 50%, rgba(231,77,79,1));
+}  
+
+
+.popup-bottom {
+    position: absolute;
+    background-color: white;
+    height: 25%;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.popup-display {
+    display: none;
+}
+
+.popup-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: #0CBE64;
+}
+
+.fail {
+    background-color: #C9353B;
+}
+
+.popup-img img {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.popup-icon {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 10% auto 3% auto;
+}
+
+.popup-icon i{
+    font-size: 5vw;
+    color: white;
+}
+
+.popup-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-family: "DINPro-Bold";
+}
+
+.popup-text {
+  font-size: 1vw;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 10% 0 10%;
+}
+
+.warning-text {
+    color: #0CBE64;
+    text-transform: uppercase;
+    text-align: center;
+    width: 90%;
+    height: fit-content;
+    font-size: 1.5vw;
+    font-family: "DINPro-Bold";
+    margin: 0 5%;
+}
+
+.popup-buttons {
+    position: absolute;
+    height: 25%;
+    width: 60%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-button {
+    background-color: rgba(0, 0, 0, 0.233);
+    outline: none;
+    border: none;
+    width: 40%;
+    height: 40%;
+    margin: auto 5%;
+    border-radius: 10px;
+    transition: background .5s;
+    color: white; 
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-family: "DINPro-Bold";
+}
+
+.popup-button:hover {
+    background-color: rgba(240,86,86,1); 
+}
+
+.popup-button:active {
+    background-color: rgb(160, 0, 252); 
+}
+
+
+
+
+
+  @keyframes popUpEntrada {
+    0%{opacity: 0; bottom: 100%;}
+    75%{bottom: 0;}
+    100%{opacity: 1;}
+  }
+
+  @keyframes popUpSaida {
+    0%{opacity: 1; top: 0;}
+    75%{opacity: 1;}
+    100%{opacity: 0;top: 100%;}
+  }
+
+
+.popUpEntrada{
+    display: block !important;
+    animation: popUpEntrada .7s;
+}
+.popUpSaida{
+    display: block !important;
+    animation: popUpSaida .7s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.focus {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    /* z-index: 2; */
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+.prevent-click {
+	pointer-events: none;
+	animation: blur 2s ease 0s;
+	animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+@keyframes notifyEntrada {
+    0%{opacity: 0; right: -20%; }
+    10%{right: 0; opacity: 1;}
+    90%{right: 0; opacity: 1;}
+    100%{opacity: 0; right: -20%;}
+  }
+
+
+
+.notifications {
+    position: absolute;
+    margin-top: 25%;
+    right: 0;
+    width: 20%;
+    height: fit-content;
+    z-index: 99;
+}
+
+.notification-container {
+    position: relative;
+    right: 0%;
+    margin-right: .5%;
+    margin-bottom: 5%;
+    width: 95%;
+    height: 95%;
+    transform: skewY(0.9deg);;
+    animation: notifyEntrada 3s forwards;
+    display: flex;
+    align-items: center;
+
+    border: solid 5px transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(#1647ce00, #1647ce00), linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #e1214e00 100%);
+    background-origin: padding-box, border-box;
+    background-clip: content-box, border-box;
+
+    z-index: 99;
+
+    overflow: hidden;
+
+    
+}
+
+
+
+.notification-img {
+    margin: 2%;
+    height: 6vw;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(110deg, #282f4100 0%, #06070a00 100%);
+    border-radius: 5px;
+    border: 1px solid #292f3f00;
+}
+
+.notification-img img{
+    width: 90%;
+    margin: auto;
+}
+
+.notification-text-container {
+    width: 60%;
+    height: 85%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.notification-title {
+    margin:  5% auto;
+    font-family: "DINPro-Bold";
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-style: italic;
+    width: fit-content;
+    border-bottom: 2px solid #0DE6FF;
+    padding: 0 5%;
+}
+
+.notification-text {
+    color: white;
+    text-transform: uppercase;
+    font-family: "DINPro-Bold";
+    font-size: .9vw;
+    margin: 10% 0;
+}
+
+.retirou {
+    border-bottom: 2px solid rgba(13,230,255,1);
+}
+
+.unlock {
+    color: #0DE6FF;
+}
+
+.lock {
+    color: #0DE6FF;
+}
