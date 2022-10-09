@@ -9,6 +9,9 @@ server_scripts {
 	'lib/utils.lua',
 	'cfg/groups.lua',
 	'cfg/blips.lua',
+	'@elitestore/webhooks.lua',
+	'@elite_inventorys/config-side/cars.lua',
+	'@elite_inventorys/config-side/items.lua',
 	'base.lua',
 	'queue.lua',
 	'modules/gui.lua',
@@ -18,10 +21,7 @@ server_scripts {
 	'modules/inventory.lua',
 	'modules/identity.lua',
 	'modules/aptitude.lua',
-	--'modules/basic_items.lua',
-	'@elitestore/webhooks.lua',
-	'@elite_inventorys/config-side/cars.lua',
-	'@elite_inventorys/config-side/items.lua',
+	'modules/basic_items.lua',
 	'modules/basic_skinshop.lua',
 	'modules/group.lua',
 	'modules/survival.lua'
@@ -29,6 +29,8 @@ server_scripts {
 
 client_scripts {
 	'lib/utils.lua',
+	'@elite_inventorys/config-side/cars.lua',
+	'@elite_inventorys/config-side/items.lua',
 	'client/base.lua',
 	'client/objects.lua',
 	'client/basic_garage.lua',
@@ -37,8 +39,6 @@ client_scripts {
 	'client/player_state.lua',
 	'client/survival.lua',
 	'client/map.lua',
-	'@elite_inventorys/config-side/cars.lua',
-	'@elite_inventorys/config-side/items.lua',
 	'client/identity.lua',
 	'client/police.lua'
 }
