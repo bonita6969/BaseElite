@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1004188" />
+      <flags value="" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0898609" y="-0.0128225" z="-0.0129743" />
+      <bbMax x="0.0302307" y="0.0128225" z="0.0129743" />
+      <bsCentre x="-0.0298151" y="0.0000000" z="0.0000000" />
+      <bsRadius value="0.0627555" />
+      <hdTextureDist value="652722,2" />
+      <name>prop_dango_yzze</name>
+      <textureDictionary>prop_dango_yzze</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>prop_dango_yzze</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_dango_yzze</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>
+  </name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Skylumz YTYP Generator</CreatedBy>
+</CMapTypes>

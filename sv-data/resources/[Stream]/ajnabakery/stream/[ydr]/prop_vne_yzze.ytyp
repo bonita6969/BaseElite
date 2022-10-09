@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="215581,6" />
+      <flags value="" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0417256" y="-0.0434865" z="-0.1375063" />
+      <bbMax x="0.0452472" y="0.0434864" z="0.1021219" />
+      <bsCentre x="0.0017608" y="0.0000000" z="-0.0176922" />
+      <bsRadius value="0.134676" />
+      <hdTextureDist value="140128,04" />
+      <name>prop_vne_yzze</name>
+      <textureDictionary>prop_vne_yzze</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>prop_vne_yzze</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_vne_yzze</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>
+  </name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Skylumz YTYP Generator</CreatedBy>
+</CMapTypes>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="249544,8" />
+      <flags value="" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.1585888" y="-0.0650336" z="-0.0131242" />
+      <bbMax x="0.1384280" y="0.0257423" z="0.0145207" />
+      <bsCentre x="-0.0100804" y="-0.0196457" z="0.0006982" />
+      <bsRadius value="0.155903" />
+      <hdTextureDist value="162204,12" />
+      <name>prop_tempura_yzze</name>
+      <textureDictionary>prop_tempura_yzze</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>prop_tempura_yzze</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_tempura_yzze</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>
+  </name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Skylumz YTYP Generator</CreatedBy>
+</CMapTypes>

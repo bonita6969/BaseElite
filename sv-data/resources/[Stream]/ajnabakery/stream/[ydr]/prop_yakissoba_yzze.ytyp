@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="182266,4" />
+      <flags value="" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0294495" y="-0.0773666" z="-0.0773666" />
+      <bbMax x="0.0335278" y="0.0773666" z="0.0773666" />
+      <bsCentre x="0.0020391" y="0.0000000" z="0.0000000" />
+      <bsRadius value="0.113854" />
+      <hdTextureDist value="118473,16" />
+      <name>prop_yakissoba_yzze</name>
+      <textureDictionary>prop_yakissoba_yzze</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>prop_yakissoba_yzze</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_yakissoba_yzze</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>
+  </name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Skylumz YTYP Generator</CreatedBy>
+</CMapTypes>

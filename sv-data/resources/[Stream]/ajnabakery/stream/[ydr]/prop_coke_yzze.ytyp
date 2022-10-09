@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1470096,8" />
+      <flags value="" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0389666" y="-0.0403164" z="-0.0731429" />
+      <bbMax x="0.0389666" y="0.0376164" z="0.0738836" />
+      <bsCentre x="0.0000000" y="-0.0013500" z="0.0003704" />
+      <bsRadius value="0.0918748" />
+      <hdTextureDist value="955562,92" />
+      <name>prop_coke_yzze</name>
+      <textureDictionary>prop_coke_yzze</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>prop_coke_yzze</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_coke_yzze</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>
+  </name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Skylumz YTYP Generator</CreatedBy>
+</CMapTypes>

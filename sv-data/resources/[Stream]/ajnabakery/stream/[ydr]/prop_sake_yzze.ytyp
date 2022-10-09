@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="219392,8" />
+      <flags value="" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0341664" y="-0.0341664" z="-0.1074534" />
+      <bbMax x="0.0341664" y="0.0341664" z="0.1490629" />
+      <bsCentre x="0.0000000" y="0.0000000" z="0.0208047" />
+      <bsRadius value="0.137058" />
+      <hdTextureDist value="142605,32" />
+      <name>prop_sake_yzze</name>
+      <textureDictionary>prop_sake_yzze</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>prop_sake_yzze</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_sake_yzze</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>
+  </name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Skylumz YTYP Generator</CreatedBy>
+</CMapTypes>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="172314,4" />
+      <flags value="" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0261455" y="-0.0221614" z="-0.0645173" />
+      <bbMax x="0.0384048" y="0.0423888" z="0.1304353" />
+      <bsCentre x="0.0061297" y="0.0101137" z="0.0329590" />
+      <bsRadius value="0.107634" />
+      <hdTextureDist value="112004,36" />
+      <name>prop_ramune_yzze</name>
+      <textureDictionary>prop_ramune_yzze</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>prop_ramune_yzze</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_ramune_yzze</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>
+  </name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Skylumz YTYP Generator</CreatedBy>
+</CMapTypes>

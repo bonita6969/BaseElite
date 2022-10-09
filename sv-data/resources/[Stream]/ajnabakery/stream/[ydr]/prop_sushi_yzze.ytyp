@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="160460" />
+      <flags value="" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0698321" y="-0.0149210" z="-0.0061634" />
+      <bbMax x="0.1278930" y="0.0156297" z="0.0061634" />
+      <bsCentre x="0.0290305" y="0.0003544" z="0.0000000" />
+      <bsRadius value="0.100225" />
+      <hdTextureDist value="104299" />
+      <name>prop_sushi_yzze</name>
+      <textureDictionary>prop_sushi_yzze</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>prop_sushi_yzze</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_sushi_yzze</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>
+  </name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Skylumz YTYP Generator</CreatedBy>
+</CMapTypes>

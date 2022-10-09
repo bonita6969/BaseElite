@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="257280,8" />
+      <flags value="" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0407724" y="-0.0343704" z="-0.1602878" />
+      <bbMax x="0.0467694" y="0.0388945" z="0.1402377" />
+      <bsCentre x="0.0029985" y="0.0022620" z="-0.0100250" />
+      <bsRadius value="0.160738" />
+      <hdTextureDist value="167232,52" />
+      <name>prop_champagne_yzze</name>
+      <textureDictionary>prop_champagne_yzze</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>prop_champagne_yzze</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_champagne_yzze</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>
+  </name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Skylumz YTYP Generator</CreatedBy>
+</CMapTypes>

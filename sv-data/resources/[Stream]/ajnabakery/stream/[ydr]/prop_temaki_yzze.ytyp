@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="160487,2" />
+      <flags value="" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0679962" y="-0.0415385" z="-0.0415385" />
+      <bbMax x="0.0944537" y="0.0415385" z="0.0415385" />
+      <bsCentre x="0.0132287" y="0.0000000" z="0.0000000" />
+      <bsRadius value="0.100242" />
+      <hdTextureDist value="104316,68" />
+      <name>prop_temaki_yzze</name>
+      <textureDictionary>prop_temaki_yzze</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>prop_temaki_yzze</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_temaki_yzze</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>
+  </name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Skylumz YTYP Generator</CreatedBy>
+</CMapTypes>
