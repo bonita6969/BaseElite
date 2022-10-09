@@ -1,2 +1,5 @@
 
 build/*
+sv-data/cache/*
+*.bat
+txData/*
