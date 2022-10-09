@@ -1,18 +1,3 @@
-shared_script "@ThnAC/natives.lua"
---[[
- _   _                                                    
-| | | |                                                   
-| |_| |_   _ _ __  _ __   ___  _ __   ___ _ __ ___   __ _ 
-|  _  | | | | '_ \| '_ \ / _ \| '_ \ / _ \ '_ ` _ \ / _` |
-| | | | |_| | |_) | | | | (_) | | | |  __/ | | | | | (_| |
-\_| |_/\__, | .__/|_| |_|\___/|_| |_|\___|_| |_| |_|\__,_|
-        __/ | |                                           
-       |___/|_|  
-
-]]--
-
--- The url to your webserver
--- Hint: This is optional! You may want to stay with the default (https://thiago-dev.github.io/fivem-hypnonema)
 hypnonema_url 'https://thiago-dev.github.io/fivem-hypnonema'
 
 -- If you want to see a custom splash screen / poster
